@@ -1,6 +1,7 @@
-After downloading all files, the archimate_to_asp.py script can be executed with as an argument either the vc.xml or tc.xml files. This will generate a vc.lp or tc.lp ASP scipt respectively.
-These scripts can be combined with the vc_rules.lp or tc_rules.lp respectively.
-The resulting .lp files can be solved by an ASP parser. 
+After downloading all files, the archimate_to_asp.py script can be executed with as an argument either the vc.xml or tc.xml files. 
+This will generate a vc.lp or tc.lp ASP script respectively.
+Passing either vc_complete.lp or tc_complete_lp to an ASP parser, will either include
+both vc.lp and vc_rules.lp or tc.lp and tc_rules.lp. 
 
 For the purpose of this study the following ASP Parser has been used:
 clingo version 5.8.0
