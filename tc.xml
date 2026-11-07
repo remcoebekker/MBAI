@@ -1,0 +1,3173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-50e0c06610b447908bf2b6d91470f327">
+  <name xml:lang="en">tc</name>
+  <elements>
+    <element identifier="id-cb711b98e8a1404cb48f6fddcabd14f4" xsi:type="BusinessProcess">
+      <name xml:lang="en">Opstellen specifieke SDG teksten</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">6f31de90-1870-48879-a415-6e1e4f7ab37</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-6f31de90187048879a4156e1e4f7ab37</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">opstellen specifieke sdg teksten</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-e1d79de7ddf2460abbef3ff20b133160" xsi:type="BusinessProcess">
+      <name xml:lang="en">Standaarteksten overnemen</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">649a8771-3016-445a9-8e94-d47037b5009</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-649a87713016445a98e94d47037b5009</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">standaarteksten overnemen</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-d7b915b0957c4a13a2624aeb8c269a75" xsi:type="BusinessProcess">
+      <name xml:lang="en">Specifieke teksten publiceren</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">8e518cdb-87a7-4fe39-e668-436c88c4ca4</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-8e518cdb87a74fe39e668436c88c4ca4</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">specifieke teksten publiceren</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-baaf1303a8ac424db12426a903f4e0e5" xsi:type="BusinessProcess">
+      <name xml:lang="en">Controleren standaardteksten</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">A79a85aa-5fb5-400b9-e528-bdb1d591d79</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-a79a85aa5fb5400b9e528bdb1d591d79</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">controleren standaardteksten</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-953570c564fa441fae17bb0d6d6b5ed2" xsi:type="BusinessProcess">
+      <name xml:lang="en">Standaarteksten aanvullen (optioneel)</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">C422aaf8-6de1-44ce9-2915-05178978f21</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-c422aaf86de144ce9291505178978f21</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">standaarteksten aanvullen (optioneel)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-4a14864b5d394a65af7304a0e8c4cd21" xsi:type="BusinessObject">
+      <name xml:lang="en">specifieke tekst</name>
+      <documentation xml:lang="en">Deel van de product- en dienstinformatie die per decentrale overheid verschilt en wordt gemaakt en ingevoerd door iedere afzonderlijke DO.
+
+Voorbeelden van specifieke beschrijvingen zijn openingstijden en leges.
+Het betreft dus zowel productinformatie als organisatie informatie zoals uitgewerkt in het informatiemodel."</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">1caed0d0-88e9-452c9-99e9-2e6627333b9</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-1caed0d088e9452c999e92e6627333b9</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">specifieke tekst</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-d7e8bf6710d648e09e51f2adfc164fc3" xsi:type="BusinessObject">
+      <name xml:lang="en">standaardtekst</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">5fd71f83-84f5-42d5b-f575-f2df470cb4f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-5fd71f8384f542d5bf575f2df470cb4f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">standaardtekst</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-8af696f4ef174524b776665b078c4c22" xsi:type="BusinessActor">
+      <name xml:lang="en">Bestuursorgaan</name>
+      <documentation xml:lang="en">Instantie die de bevoegdheid heeft om beslissingen namens de overheid te nemen.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">8b1a19bf-1f76-4ffb8-6453-8b8cac2e8fe</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-8b1a19bf1f764ffb864538b8cac2e8fe</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">bestuursorgaan</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-2f3c45b460374f079b30044ac5ff9fc4" xsi:type="BusinessActor">
+      <name xml:lang="en">burger</name>
+      <documentation xml:lang="en">Lid van de bevolking.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">21e06245-a074-40ee8-6de9-99f1f9d822d</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-21e06245a07440ee86de999f1f9d822d</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">burger</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-a6370fee5c0f41a786e04bfccce2e22e" xsi:type="BusinessActor">
+      <name xml:lang="en">KOOP/Logius</name>
+      <documentation xml:lang="en">KOOP, het Kennis- en Exploitatiecentrum voor Officiële Overheidspublicaties, is de drijvende kracht achter de grootste portalen met overheidsinformatie op internet: overheid.nl, wetten.nl en officiëlebekendmakingen.nl. KOOP is sinds 1 januari 2023 onderdeel van agentschap Logius.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">7063048a-ff9c-41d1b-9918-43f515e1e1f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-7063048aff9c41d1b991843f515e1e1f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">koop/logius</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-9a8196096db54ea9b87fb8d27f82c8c5" xsi:type="BusinessProcess">
+      <name xml:lang="en">Behandelen vergunningaanvraag</name>
+      <documentation xml:lang="en">Dit bedrijfsproces betreft het behandelen van een ingediende aanvraag voor toestemming tot het uitvoeren van een voorgenomen vergunning- of ontheffingplichtige activiteit.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">67c5278c-818b-4851-96e6-417d5f235ded</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">behandelen vergunningaanvraag</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-67c5278c-818b-4851-96e6-417d5f235ded</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-3815c329c05f4f50b6c3bcf3f68ec820" xsi:type="BusinessProcess">
+      <name xml:lang="en">Besluiten vergunningaanvraag</name>
+      <documentation xml:lang="en">Nemen besluit op ambtelijk of eventueel bestuurlijk niveau.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">B45959da-4d1b-47a7-a7e3-f36bb55c3056</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">besluiten vergunningaanvraag</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">b45959da-4d1b-47a7-a7e3-f36bb55c3056</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-48047fd087aa41da96310843c0e04347" xsi:type="BusinessProcess">
+      <name xml:lang="en">Bekendmaken besluit vergunningaanvraag</name>
+      <documentation xml:lang="en">Leveren, publiceren besluit en informeren belanghebbenden.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">A42ddb2b-33cf-44bf-a882-42f1b4d7aa4b</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">bekendmaken besluit vergunningaanvraag</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">a42ddb2b-33cf-44bf-a882-42f1b4d7aa4b</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-54497fc5b6df425599a7d21ab989ac48" xsi:type="BusinessProcess">
+      <name xml:lang="en">Intake vergunningaanvraag</name>
+      <documentation xml:lang="en">Registratie, bepalen regievoerder, publicatie aanvraag, evt. verzoek om aanvullende gegevens, toetsen indieningsvereisten, advies ketenpartners, evt. publicatie buitenbehandelingstelling.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">A0f2a481-461f-48eb-a0c8-c8afdb0b997a</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">intake vergunningaanvraag</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">a0f2a481-461f-48eb-a0c8-c8afdb0b997a</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-bb96aa24e04d4c7fb95439ef83eba6d7" xsi:type="BusinessProcess">
+      <name xml:lang="en">Inhoudelijk behandelen vergunningaanvraag</name>
+      <documentation xml:lang="en">Coördineren vergunningendelen andere bestuursorganen, evt. ontwerpbesluit en terinzagelegging, aanpassing tot conceptbesluit.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">B30e09a7-8dcc-418f-b14c-3d8c3645eabe</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">inhoudelijk behandelen vergunningaanvraag</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">b30e09a7-8dcc-418f-b14c-3d8c3645eabe</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-4609cc1c64be45ab96dee5ce7d863e94" xsi:type="BusinessEvent">
+      <name xml:lang="en">Vergunning afgegeven</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">E38dd1a4-edf5-4018-b493-7a088483c5d3</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">vergunning afgegeven</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">e38dd1a4-edf5-4018-b493-7a088483c5d3</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-a294473766fd46b194dea9c02712897f" xsi:type="BusinessEvent">
+      <name xml:lang="en">Vergunningaanvraag ontvangen</name>
+      <documentation xml:lang="en">Een ontvangen aanvraag voor een vergunning of ontheffing. Normaliter afkomstig van de initiatiefnemer, maar ook een aanvraag tot ambtshalve revisie/aanscherping afkomstig vanuit de eigen organisatie doet dit proces starten.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">E851e9f0-90cf-4e02-81b1-244d9d44c0dc</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">vergunningaanvraag ontvangen</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">e851e9f0-90cf-4e02-81b1-244d9d44c0dc</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-b7df108d1dfe4e9e8461ce3bcb59c3b2" xsi:type="ApplicationService">
+      <name xml:lang="en">[CMS Waterschap] Publicatieservice</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">8ca186dc-0218-45cdb-d5cc-c377cf64be1</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-8ca186dc021845cdbd5ccc377cf64be1</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[cms waterschap] publicatieservice</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-9848e7a49a8245938b4a46307fa7b67a" xsi:type="ApplicationComponent">
+      <name xml:lang="en">CMS Waterschap</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">3960c63d-976d-4d06b-3885-93652c2849f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-3960c63d976d4d06b388593652c2849f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">cms waterschap</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-2df9f8eecce246a9abe37d9ac812b505" xsi:type="ApplicationFunction">
+      <name xml:lang="en">[CMS Waterschap] Contentmanagement</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">B797f982-de58-4b198-ee3c-8a2657df0f2</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-b797f982de584b198ee3c8a2657df0f2</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[cms waterschap] contentmanagement</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-de5139fa4cbc434fbc2a0e7211954c81" xsi:type="ApplicationService">
+      <name xml:lang="en">[CMS Waterschap] Redactieservice productinformatie</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">F916c27e-62ba-4e1d8-df30-d12620e57d4</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-f916c27e62ba4e1d8df30d12620e57d4</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[cms waterschap] redactieservice productinformatie</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-cfbee421458c4984b79db84e3c5655df" xsi:type="DataObject">
+      <name xml:lang="en">[CMS Waterschap] producten</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">91d0f159-a87c-48429-1349-1722993fb01</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-91d0f159a87c4842913491722993fb01</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[cms waterschap] producten</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-c38ca8009c444cd2bb38b37828a94e9c" xsi:type="ApplicationService">
+      <name xml:lang="en">[SDG Invoervooziening] PDC Schrijf-API producten SDG</name>
+      <documentation xml:lang="en">Deze API stelt u in staat om productbeschrijvingen te beheren voor producten die relevant zijn voor de SDG-verordening. De API is gebaseerd op het SDG informatiemodel versie 1.6.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="en">https://sdg.bij12.nl/api/v1/schema/#section/Introductie</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">F0d1e787-b96e-4fb38-b662-eeb6b4d10df</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-f0d1e787b96e4fb38b662eeb6b4d10df</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[sdg invoervooziening] pdc schrijf-api producten sdg</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-7d3d3f4472284ee081693b8ac431a424" xsi:type="ApplicationComponent">
+      <name xml:lang="en">SDG Invoervooziening</name>
+      <documentation xml:lang="en">Beheer de teksten van producten en diensten t.b.v. de Single Digital Gateway (SDG) via het CMS en/of de API.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="en">https://github.com/maykinmedia/sdg-invoervoorziening#readme</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">7f59a7d8-66fb-41a09-6d4d-9147408814f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-7f59a7d866fb41a096d4d9147408814f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">sdg invoervooziening</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-14d62f8dda35432682ae34c06dba9760" xsi:type="ApplicationFunction">
+      <name xml:lang="en">[SDG Invoervoorziening] Contentmanagement</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">77032c2b-57f8-403d8-a9df-4fcfee395b7</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-77032c2b57f8403d8a9df4fcfee395b7</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[sdg invoervoorziening] contentmanagement</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-38aeb27cbbe9470d9a4965a19e5b87c9" xsi:type="ApplicationService">
+      <name xml:lang="en">[CMS Waterschap] Publicatieservice</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">8ca186dc-0218-45cdb-d5cc-c377cf64be1</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-8ca186dc021845cdbd5ccc377cf64be1</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[cms waterschap] publicatieservice</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-3223cb307d5840c88d7449d495da575a" xsi:type="DataObject">
+      <name xml:lang="en">[SDG Invoervoorziening] producten</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">A413d8eb-9ab7-4f8c8-22d1-8849c83f3d0</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-a413d8eb9ab74f8c822d18849c83f3d0</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[sdg invoervoorziening] producten</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-d65ebeffcbee4293bc22a91cd4eea36a" xsi:type="ApplicationComponent">
+      <name xml:lang="en">SDG Invoervooziening</name>
+      <documentation xml:lang="en">Beheer de teksten van producten en diensten t.b.v. de Single Digital Gateway (SDG) via het CMS en/of de API.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="en">https://github.com/maykinmedia/sdg-invoervoorziening#readme</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">7f59a7d8-66fb-41a09-6d4d-9147408814f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-7f59a7d866fb41a096d4d9147408814f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">sdg invoervooziening</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-12ee3418280d474aa372695334eac668" xsi:type="ApplicationFunction">
+      <name xml:lang="en">[SDG Invoervoorziening] Contentmanagement</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">77032c2b-57f8-403d8-a9df-4fcfee395b7</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-77032c2b57f8403d8a9df4fcfee395b7</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[sdg invoervoorziening] contentmanagement</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-e473cc2b48cc4aafa5697ad5f3dbe733" xsi:type="ApplicationService">
+      <name xml:lang="en">[SDG Invoervooziening] PDC Schrijf-API producten SDG</name>
+      <documentation xml:lang="en">Deze API stelt u in staat om productbeschrijvingen te beheren voor producten die relevant zijn voor de SDG-verordening. De API is gebaseerd op het SDG informatiemodel versie 1.6.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="en">https://sdg.bij12.nl/api/v1/schema/#section/Introductie</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">F0d1e787-b96e-4fb38-b662-eeb6b4d10df</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-f0d1e787b96e4fb38b662eeb6b4d10df</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[sdg invoervooziening] pdc schrijf-api producten sdg</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-29e026acd19844f3ae7050a6dfe32e22" xsi:type="DataObject">
+      <name xml:lang="en">[SDG Invoervoorziening] producten</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">A413d8eb-9ab7-4f8c8-22d1-8849c83f3d0</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-a413d8eb9ab74f8c822d18849c83f3d0</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[sdg invoervoorziening] producten</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-d10fcb2fda0148eab294e55ec16bc6b8" xsi:type="ApplicationComponent">
+      <name xml:lang="en">Publicatieplatform</name>
+      <documentation xml:lang="en">Softwarecomponent voor het delen van open overheidsinformatie in het kader van de Wet Open Overheid (WOO).</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">C541a1e7-d4e3-408eb-a140-42e81bf9aa0</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-c541a1e7d4e3408eba14042e81bf9aa0</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">publicatieplatform</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-334588d905d149e1811bdea94fd4d78d" xsi:type="ApplicationFunction">
+      <name xml:lang="en">metadata-transformatie (optioneel)</name>
+      <documentation xml:lang="en">Functionaliteit voor het omvormen van metadata van het ene format naar een ander format.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">81f93a78-1ab3-47689-7e35-eda3550c174</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-81f93a781ab3476897e35eda3550c174</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">metadata-transformatie (optioneel)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-138118069597463c827d7c9e60eb7a90" xsi:type="DataObject">
+      <name xml:lang="en">robots.txt</name>
+      <documentation xml:lang="en">Het Robots Exclusion Protocol, robots exclusion standard of robots.txt protocol is een conventie om een normaal toegankelijke website af te schermen voor bepaalde webspiders en zoekrobots.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="en">Beschrijft vindplaats van dataset of document</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">743f6bd2-dfd9-4165a-0bba-03f28290f61</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-743f6bd2dfd94165a0bba03f28290f61</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">robots.txt</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-6969ab4208b148d79bcb7a5f5d3c261f" xsi:type="DataObject">
+      <name xml:lang="en">openbaar gepubliceerd document</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">D2dd845a-d805-4960b-c4d2-702578bb4cb</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-d2dd845ad8054960bc4d2702578bb4cb</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">openbaar gepubliceerd document</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-7cf10aab65eb4f4084ad519a76e72a97" xsi:type="ApplicationService">
+      <name xml:lang="en">Documentpublicatie</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">D18135c4-d286-4745a-6cb9-637be88a012</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-d18135c4d2864745a6cb9637be88a012</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">documentpublicatie</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-01e5f7ed33a64ed7aa9098bea6e54dc1" xsi:type="ApplicationService">
+      <name xml:lang="en">gepubliceerde documentenbeheer</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">9c111b1f-f0b9-4dbb8-dbb7-8dd4a2e193c</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-9c111b1ff0b94dbb8dbb78dd4a2e193c</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">gepubliceerde documentenbeheer</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-a2936b837b4c4326a3acb23cfd8ee66e" xsi:type="DataObject">
+      <name xml:lang="en">sitemaps.xml</name>
+      <documentation xml:lang="en">Een sitemap, soms siteplan, is een pagina of document waarin links naar alle pagina's van een website staan, die meestal op onderwerp dan wel relevantie zijn gesorteerd. Dit is een handig hulpmiddel voor bezoekers en zoekmachines om bepaalde pagina's te vinden op een site.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="en">Beschrijft metadata bij dataset of document</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">4fb7a575-dc87-4b2e9-adc5-2dfc9247459</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-4fb7a575dc874b2e9adc52dfc9247459</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">sitemaps.xml</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-0509db6b59c8457bbc2fdf3906218668" xsi:type="ApplicationService">
+      <name xml:lang="en">Bijwerking van robots en sitemaps na wijziging gepubliceerde documenten</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">E9caeb59-9ce1-4f2f8-bc36-ac212d8ae7d</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-e9caeb599ce14f2f8bc36ac212d8ae7d</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">bijwerking van robots en sitemaps na wijziging gepubliceerde documenten</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-7a1e4e0908e1492297f966a99d9b2043" xsi:type="ApplicationInterface">
+      <name xml:lang="en">gebruikersinterface website (beschikbaar via bestuursorgaan.nl)</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">092a912d-98ab-4c498-a4bb-1207c121f7d</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-092a912d98ab4c498a4bb1207c121f7d</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">gebruikersinterface website (beschikbaar via bestuursorgaan.nl)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-aee42bf85cbf40f39bd124b2ee9aaa0f" xsi:type="DataObject">
+      <name xml:lang="en">[DiWoo] zoekindex</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">F0533b74-646d-45deb-f725-882ad330e82</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-f0533b74646d45debf725882ad330e82</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[diwoo] zoekindex</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-20a2882878474835b85e613cf2b85db3" xsi:type="ApplicationService">
+      <name xml:lang="en">[DiWoo] Woo-Harvester</name>
+      <documentation xml:lang="en">Een harvester is een programma dat automatisch informatie verzamelt van het internet. Het wordt vaak gebruikt om gegevens te verzamelen voor zoekmachines of om informatie te verzamelen voor wetenschappelijk onderzoek.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">13300460-42f7-4cd1b-46e3-4f87e931ad6</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-1330046042f74cd1b46e34f87e931ad6</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[diwoo] woo-harvester</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-a3b304486c314004938b77ac7cbfbae2" xsi:type="DataObject">
+      <name xml:lang="en">[DiWoo] ROO-data</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">D70481b7-520e-42938-d189-1098774157d</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-d70481b7520e42938d1891098774157d</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[diwoo] roo-data</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-65250524fc7145ab86fc16649f92fcbc" xsi:type="ApplicationService">
+      <name xml:lang="en">[DiWoo] Extractor</name>
+      <documentation xml:lang="en">Een extractor is een programma dat gegevens uit een bestand of database haalt en deze in een ander formaat opslaat. Extractors worden vaak gebruikt om gegevens te verzamelen voor rapporten of om gegevens te migreren van het ene systeem naar het andere.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">487a7ae8-ac33-4c77b-8962-8b2183c2899</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-487a7ae8ac334c77b89628b2183c2899</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[diwoo] extractor</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-720de0362f544c0f875d2878cad6d59c" xsi:type="ApplicationInterface">
+      <name xml:lang="en">[DiWoo] gebruikersinterface website (beschikbaar via overheid.nl)</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">25dbef60-b098-4a7ab-5ba8-64cf8d8a31b</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-25dbef60b0984a7ab5ba864cf8d8a31b</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[diwoo] gebruikersinterface website (beschikbaar via overheid.nl)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-6ab621c66da741dc9f5f50bc9ad173d7" xsi:type="ApplicationService">
+      <name xml:lang="en">[DiWoo] Woo-index</name>
+      <documentation xml:lang="en">Overzicht van Woo-documenten en -informatie van Overheidsorganisaties.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="en">https://organisaties.overheid.nl/woo</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">F3b6bc7f-a027-4c679-a81c-89918c75a89</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-f3b6bc7fa0274c679a81c89918c75a89</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[diwoo] woo-index</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-f951409cbc694e599a1db3b0cc624ffd" xsi:type="ApplicationService">
+      <name xml:lang="en">[DiWoo] Woo-Zoekfunctie</name>
+      <properties>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="en">https://open.overheid.nl/</value>
+        </property>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">2381f5a7-c938-4df8b-eb9d-5a93e910ccb</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-2381f5a7c9384df8beb9d5a93e910ccb</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[diwoo] woo-zoekfunctie</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-3f034961f04a474d8a1c575a206c22bc" xsi:type="ApplicationService">
+      <name xml:lang="en">[DiWoo] redactieservice zoekindex en ROO-data</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">52805d41-db72-4df89-4327-8df975634ae</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-52805d41db724df8943278df975634ae</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">[diwoo] redactieservice zoekindex en roo-data</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-078f3a527fb34812b9af68c137da1d1f" xsi:type="ApplicationService">
+      <name xml:lang="en">Register Overheidsorganisaties (ROO)</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">41b7250a-89a3-4e808-bbe9-e65af044b62</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-41b7250a89a34e808bbe9e65af044b62</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">register overheidsorganisaties (roo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-3c055c0f5e8643c2ab161340fac2e1a0" xsi:type="ApplicationComponent">
+      <name xml:lang="en">Vergunningen- en Toezicht- en Handhavingcomponent</name>
+      <documentation xml:lang="en">Component voor het ondersteunen van vergunningverlening, toezicht en handhaving</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">47ad0ac8-7cd2-444f-a595-f8895ea905af</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">vergunningen- en toezicht- en handhavingcomponent</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-47ad0ac8-7cd2-444f-a595-f8895ea905af</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-48ba4ef2d2744388af43598f6bafe860" xsi:type="ApplicationFunction">
+      <name xml:lang="en">Zaakbeheerfunctionaliteit</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">3437e402-f02e-48f9b-ad88-85cd8b66a97</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-3437e402f02e48f9bad8885cd8b66a97</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">zaakbeheerfunctionaliteit</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-ecf0594121764f629d5d195e04a5fcab" xsi:type="ApplicationComponent">
+      <name xml:lang="en">Digitale handtekeningcomponent</name>
+      <documentation xml:lang="en">Component om de de authenticiteit te borgen van geavanceerde- en gekwalificeerde digitale handtekeningen.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">0d7b2cf0-6598-47cd-937a-273e7e002d8e</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-0d7b2cf0-6598-47cd-937a-273e7e002d8e</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">digitale handtekeningcomponent</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-52381cf6bc3c4780a6b4a8858f0a4c2c" xsi:type="ApplicationFunction">
+      <name xml:lang="en">Digitale documentondertekening</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">98cf36b5-1418-41c4b-eebe-b8763dc93fb</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-98cf36b5141841c4beebeb8763dc93fb</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">digitale documentondertekening</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-cde47f9085b74193b2f78a71807ba030" xsi:type="ApplicationComponent">
+      <name xml:lang="en">Outputmanagementcomponent</name>
+      <documentation xml:lang="en">Component voor het via diverse kanalen verzenden van informatie en documenten, waaronder MijnOverheid Berichtenbox (digitaal) en printstraat (analoog).</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">5c787214-ce69-4afd-bfe1-2443698c348b</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">outputmanagementcomponent</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-5c787214-ce69-4afd-bfe1-2443698c348b</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-bb0bf644f25a4264954caffb9d5bb8ea" xsi:type="ApplicationFunction">
+      <name xml:lang="en">Bekendmakingpublicatiefunctionaliteit</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">E05726f6-a56e-43aba-0a50-12cb964ec0a</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-e05726f6a56e43aba0a5012cb964ec0a</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">bekendmakingpublicatiefunctionaliteit</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-c4ac1b08956f437ea12867ab522ed994" xsi:type="Grouping">
+      <name xml:lang="en">Digitale Infrastructuur Wet Open Overheid (DiWoo)</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">6c6fef60-5912-49d69-4e5c-41262609580</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-6c6fef60591249d694e5c41262609580</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">digitale infrastructuur wet open overheid (diwoo)</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="id-569be062888d43758938789051e391d5" source="id-9848e7a49a8245938b4a46307fa7b67a" target="id-2df9f8eecce246a9abe37d9ac812b505" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">557ccea0-a005-40519-4618-29e23c8c02d</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-557ccea0a00540519461829e23c8c02d</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-557ccea0a00540519461829e23c8c02d</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-45c46516296048fe9e7538fdd62ebba4" source="id-cb711b98e8a1404cb48f6fddcabd14f4" target="id-953570c564fa441fae17bb0d6d6b5ed2" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">a8b292f5-67af-458f9-3f3a-ed45147de0e</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-a8b292f567af458f93f3aed45147de0e</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-a8b292f567af458f93f3aed45147de0e</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-57c131ba809b4c8c93214c261a9367c2" source="id-b7df108d1dfe4e9e8461ce3bcb59c3b2" target="id-c38ca8009c444cd2bb38b37828a94e9c" xsi:type="Flow">
+      <name xml:lang="en">PUT/CREATE/DEL [JSON]</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">a3d6be7e-89c3-48c08-896d-44ab28b4e58</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-a3d6be7e89c348c08896d44ab28b4e58</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">put/create/del [json]</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-c26642d82aef4fa486a799a5b855e378" source="id-953570c564fa441fae17bb0d6d6b5ed2" target="id-d7b915b0957c4a13a2624aeb8c269a75" xsi:type="Triggering">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">79e4ea1e-c95a-45758-0258-0a9a53bb93a</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-79e4ea1ec95a4575802580a9a53bb93a</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-79e4ea1ec95a4575802580a9a53bb93a</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-d289ee2c75c84e1c877e052cf186d81f" source="id-d7b915b0957c4a13a2624aeb8c269a75" target="id-4a14864b5d394a65af7304a0e8c4cd21" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">381247ad-0e21-417fa-a95d-6ad7f7358df</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-381247ad0e21417faa95d6ad7f7358df</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-381247ad0e21417faa95d6ad7f7358df</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-d86c9d610ae2429cba90287343c30aca" source="id-b7df108d1dfe4e9e8461ce3bcb59c3b2" target="id-d7b915b0957c4a13a2624aeb8c269a75" xsi:type="Serving">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">bcd9750d-5688-490b8-2cf8-35e13cd0f5d</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-bcd9750d5688490b82cf835e13cd0f5d</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-bcd9750d5688490b82cf835e13cd0f5d</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-9165eae05d084c57b403dec983725a44" source="id-38aeb27cbbe9470d9a4965a19e5b87c9" target="id-baaf1303a8ac424db12426a903f4e0e5" xsi:type="Serving">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">93e2d152-80c3-4a4c9-1b1a-a64535ec3de</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-93e2d15280c34a4c91b1aa64535ec3de</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-93e2d15280c34a4c91b1aa64535ec3de</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-ea81143e2deb4e48b691a2e478d6e7a6" source="id-12ee3418280d474aa372695334eac668" target="id-e473cc2b48cc4aafa5697ad5f3dbe733" xsi:type="Realization">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">1c86ee30-7e8d-4ecb8-fe96-e9b1dc5e515</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-1c86ee307e8d4ecb8fe96e9b1dc5e515</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-1c86ee307e8d4ecb8fe96e9b1dc5e515</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-d2277bf048f346ffa20817ec7ea86213" source="id-d65ebeffcbee4293bc22a91cd4eea36a" target="id-12ee3418280d474aa372695334eac668" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">e24ff4e6-ec4d-480da-dc88-5626881701e</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-e24ff4e6ec4d480dadc885626881701e</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-e24ff4e6ec4d480dadc885626881701e</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b887443e3db745cf868c7ce6dda180f3" source="id-7d3d3f4472284ee081693b8ac431a424" target="id-14d62f8dda35432682ae34c06dba9760" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">e24ff4e6-ec4d-480da-dc88-5626881701e</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-e24ff4e6ec4d480dadc885626881701e</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-e24ff4e6ec4d480dadc885626881701e</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-f508825141554dc3b90070b4a8841b7a" source="id-cb711b98e8a1404cb48f6fddcabd14f4" target="id-d7b915b0957c4a13a2624aeb8c269a75" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">7af9109a-b412-44a08-915f-a74ec5d4552</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-7af9109ab41244a08915fa74ec5d4552</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-7af9109ab41244a08915fa74ec5d4552</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-975cb8ccffa84b34bdd25bb698dea86b" source="id-baaf1303a8ac424db12426a903f4e0e5" target="id-e1d79de7ddf2460abbef3ff20b133160" xsi:type="Triggering">
+      <name xml:lang="en">indien standaarteksten voldoen</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">9fb1a143-b212-4ca08-2b8a-0fb6e82e8b5</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-9fb1a143b2124ca082b8a0fb6e82e8b5</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">indien standaarteksten voldoen</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-d049ab34e32a405694cfa2eafa38fef8" source="id-baaf1303a8ac424db12426a903f4e0e5" target="id-953570c564fa441fae17bb0d6d6b5ed2" xsi:type="Triggering">
+      <name xml:lang="en">indien standaardteksten niet voldoen</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">be7fde37-f988-465a9-72dd-db054112495</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-be7fde37f988465a972dddb054112495</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">indien standaardteksten niet voldoen</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b8bb46e085a842d3b8aadb290e472274" source="id-de5139fa4cbc434fbc2a0e7211954c81" target="id-e1d79de7ddf2460abbef3ff20b133160" xsi:type="Serving">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">85d7855f-48d9-41f29-6567-a9cdc106309</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-85d7855f48d941f296567a9cdc106309</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-85d7855f48d941f296567a9cdc106309</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-4b419aa8583d417f9118724eea1a0d10" source="id-cb711b98e8a1404cb48f6fddcabd14f4" target="id-baaf1303a8ac424db12426a903f4e0e5" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">ba57d6df-16d8-42728-3c7b-4b9e4dcfd7f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-ba57d6df16d8427283c7b4b9e4dcfd7f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-ba57d6df16d8427283c7b4b9e4dcfd7f</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-14f259c5f7734a9fb4f516d7f9acee9d" source="id-baaf1303a8ac424db12426a903f4e0e5" target="id-d7e8bf6710d648e09e51f2adfc164fc3" xsi:type="Access" accessType="Read">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">e3a6e003-d9b2-4df6a-9933-c2aef59a67c</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-e3a6e003d9b24df6a9933c2aef59a67c</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-e3a6e003d9b24df6a9933c2aef59a67c</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-fb8c9915b69841e28f1dc778842558b6" source="id-cb711b98e8a1404cb48f6fddcabd14f4" target="id-e1d79de7ddf2460abbef3ff20b133160" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">908b6ac1-70f4-4405b-8b49-615c73406c7</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-908b6ac170f44405b8b49615c73406c7</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-908b6ac170f44405b8b49615c73406c7</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-7f07f2149f8e4762a021014a811864cc" source="id-2df9f8eecce246a9abe37d9ac812b505" target="id-38aeb27cbbe9470d9a4965a19e5b87c9" xsi:type="Realization">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">f84d4278-a025-40a89-057d-f701508ed37</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-f84d4278a02540a89057df701508ed37</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-f84d4278a02540a89057df701508ed37</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-9282025a832b4f3c99b2882ffdff3649" source="id-3223cb307d5840c88d7449d495da575a" target="id-d7e8bf6710d648e09e51f2adfc164fc3" xsi:type="Realization">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">18ceb6bb-272e-4b098-4aa9-897e9c18d4d</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-18ceb6bb272e4b0984aa9897e9c18d4d</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-18ceb6bb272e4b0984aa9897e9c18d4d</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-f5129b6a0d654ca7a348e62bf8839ada" source="id-e473cc2b48cc4aafa5697ad5f3dbe733" target="id-38aeb27cbbe9470d9a4965a19e5b87c9" xsi:type="Flow">
+      <name xml:lang="en">GET [JSON]</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">4bdc2ecf-6a6b-4199a-812a-faba06d2cea</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-4bdc2ecf6a6b4199a812afaba06d2cea</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">get [json]</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-5f6cf30528a04316a68c8f4ff2aedd99" source="id-12ee3418280d474aa372695334eac668" target="id-3223cb307d5840c88d7449d495da575a" xsi:type="Access" accessType="ReadWrite">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">66d963ad-6abb-4c3d8-eed9-3f68820b8c1</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-66d963ad6abb4c3d8eed93f68820b8c1</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-66d963ad6abb4c3d8eed93f68820b8c1</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-3b0a1e4b705944b0bc617f87c98dd52e" source="id-e1d79de7ddf2460abbef3ff20b133160" target="id-d7b915b0957c4a13a2624aeb8c269a75" xsi:type="Triggering">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">6eeb9637-c3af-4bff9-e558-bcf7d395cce</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-6eeb9637c3af4bff9e558bcf7d395cce</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-6eeb9637c3af4bff9e558bcf7d395cce</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-2fd71aef61f94cc492e84d4732edfdd0" source="id-2df9f8eecce246a9abe37d9ac812b505" target="id-b7df108d1dfe4e9e8461ce3bcb59c3b2" xsi:type="Realization">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">5d693e0c-18f7-451d8-8103-6380242da43</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-5d693e0c18f7451d881036380242da43</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-5d693e0c18f7451d881036380242da43</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-a438b966476a493c976b994a5a0d0e95" source="id-de5139fa4cbc434fbc2a0e7211954c81" target="id-953570c564fa441fae17bb0d6d6b5ed2" xsi:type="Serving">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">d14b3852-4d53-460bb-7cf2-e470d3e84c1</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-d14b38524d53460bb7cf2e470d3e84c1</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-d14b38524d53460bb7cf2e470d3e84c1</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b3dbbdab2dab4fd39a694b90d856cf95" source="id-14d62f8dda35432682ae34c06dba9760" target="id-29e026acd19844f3ae7050a6dfe32e22" xsi:type="Access" accessType="ReadWrite">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">66d963ad-6abb-4c3d8-eed9-3f68820b8c1</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-66d963ad6abb4c3d8eed93f68820b8c1</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-66d963ad6abb4c3d8eed93f68820b8c1</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-36503fe439ea4628addf478cb4aa63b1" source="id-2df9f8eecce246a9abe37d9ac812b505" target="id-de5139fa4cbc434fbc2a0e7211954c81" xsi:type="Realization">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">d43995a5-e677-4056b-491e-295817ba83a</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-d43995a5e6774056b491e295817ba83a</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-d43995a5e6774056b491e295817ba83a</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b2f72eb4ef8e4474b74ea46a05f46b89" source="id-29e026acd19844f3ae7050a6dfe32e22" target="id-4a14864b5d394a65af7304a0e8c4cd21" xsi:type="Realization">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">cd005043-170f-4b8b8-bbb7-71338bd93f7</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-cd005043170f4b8b8bbb771338bd93f7</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-cd005043170f4b8b8bbb771338bd93f7</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-c3d0fd64f421446fadfd7f60a4261e42" source="id-14d62f8dda35432682ae34c06dba9760" target="id-c38ca8009c444cd2bb38b37828a94e9c" xsi:type="Realization">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">1c86ee30-7e8d-4ecb8-fe96-e9b1dc5e515</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-1c86ee307e8d4ecb8fe96e9b1dc5e515</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-1c86ee307e8d4ecb8fe96e9b1dc5e515</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-6198beb299674911ad47d20217f80a4f" source="id-2df9f8eecce246a9abe37d9ac812b505" target="id-cfbee421458c4984b79db84e3c5655df" xsi:type="Access" accessType="ReadWrite">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">9d2ae6eb-7931-458ca-e87a-de77678f4e4</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-9d2ae6eb7931458cae87ade77678f4e4</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-9d2ae6eb7931458cae87ade77678f4e4</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b29e7d83d1a94fe8baadb08cc0415ca8" source="id-20a2882878474835b85e613cf2b85db3" target="id-65250524fc7145ab86fc16649f92fcbc" xsi:type="Serving">
+      <name xml:lang="en">levert url te 'extraheren' documenten</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">b109d641-c3b4-4cfb8-2937-dd2e31964e1</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-b109d641c3b44cfb82937dd2e31964e1</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">levert url te 'extraheren' documenten</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-451e92b8aff145d2bd806e5e51f5037e" source="id-8af696f4ef174524b776665b078c4c22" target="id-d10fcb2fda0148eab294e55ec16bc6b8" xsi:type="Flow">
+      <name xml:lang="en">Woo-document</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">39b82d45-c35a-42c5a-f159-a4d6fa7de8b</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-39b82d45c35a42c5af159a4d6fa7de8b</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">woo-document</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-81b26ca8850a49cab594ba4ad5352164" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-3f034961f04a474d8a1c575a206c22bc" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">f38e45d0-7223-4c94b-f6a4-14a72fd13f5</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-f38e45d072234c94bf6a414a72fd13f5</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-f38e45d072234c94bf6a414a72fd13f5</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b85633be532d49e4b862845acb1a52d8" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-aee42bf85cbf40f39bd124b2ee9aaa0f" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">a5a0ba71-e81b-48fc9-5efa-2cc3ee3378f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-a5a0ba71e81b48fc95efa2cc3ee3378f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-a5a0ba71e81b48fc95efa2cc3ee3378f</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-03499fbc452247aeb7c4bfa06540cf8e" source="id-720de0362f544c0f875d2878cad6d59c" target="id-6ab621c66da741dc9f5f50bc9ad173d7" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">71b19e5b-b02f-442d9-89c8-c400cf4110f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-71b19e5bb02f442d989c8c400cf4110f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-71b19e5bb02f442d989c8c400cf4110f</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-f9b092cb2ad545b18c75e3fecfff3b22" source="id-20a2882878474835b85e613cf2b85db3" target="id-a2936b837b4c4326a3acb23cfd8ee66e" xsi:type="Access" accessType="Read">
+      <name xml:lang="en">wordt gelezen door</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">d58e8857-c1b7-4f969-9fde-a6601f88164</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-d58e8857c1b74f9699fdea6601f88164</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">wordt gelezen door</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-212ea137ee304f209047913c8dd36fad" source="id-7cf10aab65eb4f4084ad519a76e72a97" target="id-6969ab4208b148d79bcb7a5f5d3c261f" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">ffff3b49-0eea-47b89-7243-8de44e31205</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-ffff3b490eea47b8972438de44e31205</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-ffff3b490eea47b8972438de44e31205</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-fdbb330ebd564bcaaf055e2e2fa8e046" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-01e5f7ed33a64ed7aa9098bea6e54dc1" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">eeea2394-fbeb-4b52a-c9a3-22ce8d2022a</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-eeea2394fbeb4b52ac9a322ce8d2022a</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-eeea2394fbeb4b52ac9a322ce8d2022a</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-6a7db2cd5b6d4d4c8abdb2caadd55836" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-078f3a527fb34812b9af68c137da1d1f" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">65a9df46-4114-4f53b-4e50-21eee4eef75</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-65a9df4641144f53b4e5021eee4eef75</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-65a9df4641144f53b4e5021eee4eef75</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-0b041775b334410dafe2509a3e0a593a" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-7cf10aab65eb4f4084ad519a76e72a97" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">a2d37f98-3595-45cda-919b-c6ae25ac8ff</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-a2d37f98359545cda919bc6ae25ac8ff</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-a2d37f98359545cda919bc6ae25ac8ff</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-564a094a8fed4c4eb5d3dc2b50d01435" source="id-6ab621c66da741dc9f5f50bc9ad173d7" target="id-a3b304486c314004938b77ac7cbfbae2" xsi:type="Access" accessType="Read">
+      <name xml:lang="en">ontsloten via</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">6d3f2378-f380-4e6c8-a70f-80bb2c6adef</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-6d3f2378f3804e6c8a70f80bb2c6adef</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">ontsloten via</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-06dcd3b3aba045cc8a8ecbdd1fec952d" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-138118069597463c827d7c9e60eb7a90" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">831c05a9-3253-4532a-35e3-f99d6155885</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-831c05a932534532a35e3f99d6155885</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-831c05a932534532a35e3f99d6155885</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-c04eacc486554b078104a792120009a7" source="id-f951409cbc694e599a1db3b0cc624ffd" target="id-aee42bf85cbf40f39bd124b2ee9aaa0f" xsi:type="Access" accessType="Read">
+      <name xml:lang="en">toegankelijk via</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">c6d35ebf-fe65-4869a-43c7-97bc525718f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-c6d35ebffe654869a43c797bc525718f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">toegankelijk via</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-1691c313f4014cb9ba185b31945fa960" source="id-a3b304486c314004938b77ac7cbfbae2" target="id-7a1e4e0908e1492297f966a99d9b2043" xsi:type="Association">
+      <name xml:lang="en">omvat url van bestuursorgaan waarop documentcollectie beschikbaar is</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">c5dfa5c0-1e23-44dea-4452-f458c2e6a43</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-c5dfa5c01e2344dea4452f458c2e6a43</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">omvat url van bestuursorgaan waarop documentcollectie beschikbaar is</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-d2e7cc7b3c064f29adb92199524d6d78" source="id-0509db6b59c8457bbc2fdf3906218668" target="id-138118069597463c827d7c9e60eb7a90" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">6f81fa8f-9d2b-48ffb-70d5-8e3d29c1a63</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-6f81fa8f9d2b48ffb70d58e3d29c1a63</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-6f81fa8f9d2b48ffb70d58e3d29c1a63</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-d5b2d782ea8a4478a8f9585cdfb483e6" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-7a1e4e0908e1492297f966a99d9b2043" xsi:type="Composition">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">dd5a5b07-beb4-45029-1b17-0a62c73c577</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-dd5a5b07beb4450291b170a62c73c577</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-dd5a5b07beb4450291b170a62c73c577</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-568165b5fac14bb28356b6dd7a10c785" source="id-720de0362f544c0f875d2878cad6d59c" target="id-2f3c45b460374f079b30044ac5ff9fc4" xsi:type="Serving">
+      <name xml:lang="en">bereikbaar voor</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">b92d04e6-048f-46ec8-42be-c631f44e748</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-b92d04e6048f46ec842bec631f44e748</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">bereikbaar voor</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-c095d77343394a8bbad00bff2472315d" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-a3b304486c314004938b77ac7cbfbae2" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">4152639c-3790-4a22b-ff2a-b4c604dab52</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-4152639c37904a22bff2ab4c604dab52</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-4152639c37904a22bff2ab4c604dab52</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-4358c181408349a68bf2363017fc29d1" source="id-aee42bf85cbf40f39bd124b2ee9aaa0f" target="id-a3b304486c314004938b77ac7cbfbae2" xsi:type="Aggregation">
+      <name xml:lang="en">omvat</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">1b35bcf0-097e-480f8-8f52-77beaa408c3</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-1b35bcf0097e480f88f5277beaa408c3</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">omvat</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-69503a47bec04fafbd0b7aedc9e2e2f5" source="id-65250524fc7145ab86fc16649f92fcbc" target="id-aee42bf85cbf40f39bd124b2ee9aaa0f" xsi:type="Access" accessType="Write">
+      <name xml:lang="en">levert inhoud voor</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">6eb63c1f-71ca-42379-446b-4dd1182ceb1</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-6eb63c1f71ca42379446b4dd1182ceb1</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">levert inhoud voor</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-5d9fd145e94e4cf08ff6b39910670f5f" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-6969ab4208b148d79bcb7a5f5d3c261f" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">ea29bb46-2a12-49c89-1018-a5983c9ca0b</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-ea29bb462a1249c891018a5983c9ca0b</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-ea29bb462a1249c891018a5983c9ca0b</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-16463a650e3e4ce3bf489e268fdb9e85" source="id-3f034961f04a474d8a1c575a206c22bc" target="id-a3b304486c314004938b77ac7cbfbae2" xsi:type="Access" accessType="Write">
+      <name xml:lang="en">werkt bij</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">71ed718a-9d5a-40d29-647a-d3f778d034e</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-71ed718a9d5a40d29647ad3f778d034e</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">werkt bij</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-c30698a68e1746b7b084d26becc9e41f" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-a2936b837b4c4326a3acb23cfd8ee66e" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">7b4b6913-802c-41ab9-d582-64fb7d8b3db</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-7b4b6913802c41ab9d58264fb7d8b3db</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-7b4b6913802c41ab9d58264fb7d8b3db</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-116a4642691c482cb84d81bedd63d084" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-6ab621c66da741dc9f5f50bc9ad173d7" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">7dc2367e-5069-41299-7d4e-f13739c3a21</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-7dc2367e5069412997d4ef13739c3a21</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-7dc2367e5069412997d4ef13739c3a21</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b95c2a221a5f49a28cb9453e69fd1a0e" source="id-0509db6b59c8457bbc2fdf3906218668" target="id-a2936b837b4c4326a3acb23cfd8ee66e" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">4a4dc0b1-4365-4224b-4165-49ace451bd3</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-4a4dc0b143654224b416549ace451bd3</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-4a4dc0b143654224b416549ace451bd3</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-772a6b337a034a748dbf48b2ef1800eb" source="id-720de0362f544c0f875d2878cad6d59c" target="id-f951409cbc694e599a1db3b0cc624ffd" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">fb0e2a2b-caa7-4720a-2dbc-48e05f63e41</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-fb0e2a2bcaa74720a2dbc48e05f63e41</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-fb0e2a2bcaa74720a2dbc48e05f63e41</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-84fbe366098c4c59847c72911f5d0cbf" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-f951409cbc694e599a1db3b0cc624ffd" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">21059c0c-9833-466ab-3a55-7272071519d</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-21059c0c9833466ab3a557272071519d</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-21059c0c9833466ab3a557272071519d</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-725f1081f2be46048209c9fea099a2ba" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-334588d905d149e1811bdea94fd4d78d" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">9ff5f411-e4ef-4207a-5dbf-ebdce319834</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-9ff5f411e4ef4207a5dbfebdce319834</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-9ff5f411e4ef4207a5dbfebdce319834</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-7d96f5e0ed1349e2845db35e65f6d266" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-0509db6b59c8457bbc2fdf3906218668" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">00077c8b-eb70-40e68-e5c4-de2f4098700</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-00077c8beb7040e68e5c4de2f4098700</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-00077c8beb7040e68e5c4de2f4098700</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-a609637f52d84b85be399e635a2e7fb2" source="id-20a2882878474835b85e613cf2b85db3" target="id-aee42bf85cbf40f39bd124b2ee9aaa0f" xsi:type="Access" accessType="Write">
+      <name xml:lang="en">locaties Woo-documenten Bestuursorganen</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">8837557b-83b0-4339a-f1f2-4a5cf949e77</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-8837557b83b04339af1f24a5cf949e77</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">locaties woo-documenten bestuursorganen</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b29221bc8e994f12a7cc97f1ffdfa7d5" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-20a2882878474835b85e613cf2b85db3" xsi:type="Association">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">2d33648f-4c93-46f59-21fe-fa31b464e43</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-2d33648f4c9346f5921fefa31b464e43</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-2d33648f4c9346f5921fefa31b464e43</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-58f8590fa3834dd7b318eec3d980e25c" source="id-20a2882878474835b85e613cf2b85db3" target="id-a3b304486c314004938b77ac7cbfbae2" xsi:type="Access" accessType="Read">
+      <name xml:lang="en">wordt gelezen door</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">85060a79-7c77-4f1a9-900d-2e4960a2ddc</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-85060a797c774f1a9900d2e4960a2ddc</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">wordt gelezen door</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-abf1b839c99f447ba6ce0cf6d688bacc" source="id-01e5f7ed33a64ed7aa9098bea6e54dc1" target="id-6969ab4208b148d79bcb7a5f5d3c261f" xsi:type="Access" accessType="Write">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">d25d9466-3ad7-43669-44bd-d6770104505</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-d25d94663ad74366944bdd6770104505</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-d25d94663ad74366944bdd6770104505</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-96146e75b703437893f882e0b9e1b8d6" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-720de0362f544c0f875d2878cad6d59c" xsi:type="Composition">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">60f49551-115e-40bd8-59f5-2a428af3882</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-60f49551115e40bd859f52a428af3882</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-60f49551115e40bd859f52a428af3882</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-7015fdf3da1c4b7db9d2d537c5de68ea" source="id-7a1e4e0908e1492297f966a99d9b2043" target="id-2f3c45b460374f079b30044ac5ff9fc4" xsi:type="Serving">
+      <name xml:lang="en">bereikbaar voor</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">39b32848-822b-4792b-d24c-66986a6e6da</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-39b32848822b4792bd24c66986a6e6da</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">bereikbaar voor</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-0d03c551f13b4e16a029f0e4599ddcd0" source="id-d10fcb2fda0148eab294e55ec16bc6b8" target="id-65250524fc7145ab86fc16649f92fcbc" xsi:type="Flow">
+      <name xml:lang="en">bestandslocaties Woo-documenten bestuursorganen</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">19e4bbd8-e0b0-4382a-e0da-71ffc19c81c</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-19e4bbd8e0b04382ae0da71ffc19c81c</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">bestandslocaties woo-documenten bestuursorganen</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-48bbde582eba45babe6083cb7246c622" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-65250524fc7145ab86fc16649f92fcbc" xsi:type="Association">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">3c5ca8cc-cd91-44dfb-7f87-45883c13774</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-3c5ca8cccd9144dfb7f8745883c13774</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-3c5ca8cccd9144dfb7f8745883c13774</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-00f0be73b85d44cab7e4b138afbf0c46" source="id-20a2882878474835b85e613cf2b85db3" target="id-138118069597463c827d7c9e60eb7a90" xsi:type="Access" accessType="Read">
+      <name xml:lang="en">wordt gelezen door</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">80af8f0a-6e4b-48f6b-6a91-143c9da7aca</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-80af8f0a6e4b48f6b6a91143c9da7aca</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">wordt gelezen door</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-39f210d55bec43d3a4ffb836407993bf" source="id-65250524fc7145ab86fc16649f92fcbc" target="id-6969ab4208b148d79bcb7a5f5d3c261f" xsi:type="Access" accessType="Read">
+      <name xml:lang="en">inhoud wordt gelezen door</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">7cc62730-f61f-4b718-027d-05eeb828aa2</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-7cc62730f61f4b718027d05eeb828aa2</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">inhoud wordt gelezen door</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-c9253bdf40f24587acec0b989c43bd63" source="id-aee42bf85cbf40f39bd124b2ee9aaa0f" target="id-6969ab4208b148d79bcb7a5f5d3c261f" xsi:type="Association">
+      <name xml:lang="en">verwijst naar</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">ddd9e309-084e-4af9b-c90e-840240bd297</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-ddd9e309084e4af9bc90e840240bd297</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">verwijst naar</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-67421b26821245e8b0e751748102c919" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-65250524fc7145ab86fc16649f92fcbc" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">57fcd915-d241-4cb69-37ae-def1b4733ac</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-57fcd915d2414cb6937aedef1b4733ac</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-57fcd915d2414cb6937aedef1b4733ac</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-2f7de735cdb444458a0b235545bccaf7" source="id-c4ac1b08956f437ea12867ab522ed994" target="id-20a2882878474835b85e613cf2b85db3" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">c8f652b7-cdbd-4748a-ce38-dd1ed2d9319</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-c8f652b7cdbd4748ace38dd1ed2d9319</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-c8f652b7cdbd4748ace38dd1ed2d9319</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-766e89befe174dc0bd9542cb68b0c6b1" source="id-8af696f4ef174524b776665b078c4c22" target="id-d10fcb2fda0148eab294e55ec16bc6b8" xsi:type="Flow">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">4ffca737-c490-4e31a-783c-75c95b48e1f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-4ffca737c4904e31a783c75c95b48e1f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-4ffca737c4904e31a783c75c95b48e1f</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-5fb6e3c09d214181b90be6e25953178d" source="id-3815c329c05f4f50b6c3bcf3f68ec820" target="id-48047fd087aa41da96310843c0e04347" xsi:type="Triggering">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">fb1b470b-e803-4e09-9647-b8578d53e90a</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">fb1b470b-e803-4e09-9647-b8578d53e90a</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">fb1b470b-e803-4e09-9647-b8578d53e90a</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-0aa667c0782f487cb077a65483bdf683" source="id-9a8196096db54ea9b87fb8d27f82c8c5" target="id-4609cc1c64be45ab96dee5ce7d863e94" xsi:type="Triggering">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">8e8d199a-5f4f-465d-b7cd-73b4e2b715d0</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-8e8d199a-5f4f-465d-b7cd-73b4e2b715d0</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-8e8d199a-5f4f-465d-b7cd-73b4e2b715d0</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-5d7be9eef04545b59a1fb7f56b3c1d29" source="id-3c055c0f5e8643c2ab161340fac2e1a0" target="id-48ba4ef2d2744388af43598f6bafe860" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">e588eeeb-729a-444f8-301e-64900fe4a50</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-e588eeeb729a444f8301e64900fe4a50</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-e588eeeb729a444f8301e64900fe4a50</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-663e8f305548467ea51a82ad44b57586" source="id-9a8196096db54ea9b87fb8d27f82c8c5" target="id-bb96aa24e04d4c7fb95439ef83eba6d7" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">c178b755-99bc-47a78-5014-3ab16fc079e</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-c178b75599bc47a7850143ab16fc079e</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-c178b75599bc47a7850143ab16fc079e</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-f085de4c30ac43739ef1173794d28490" source="id-9a8196096db54ea9b87fb8d27f82c8c5" target="id-48047fd087aa41da96310843c0e04347" xsi:type="Composition">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">921c754a-60c4-42b4-97b3-3db08e97ac4f</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-921c754a-60c4-42b4-97b3-3db08e97ac4f</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-921c754a-60c4-42b4-97b3-3db08e97ac4f</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-354821e4717045f19e7fd6291af49856" source="id-54497fc5b6df425599a7d21ab989ac48" target="id-bb96aa24e04d4c7fb95439ef83eba6d7" xsi:type="Triggering">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">efd375bf-c20b-4ac0-a051-28b6ad859112</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">efd375bf-c20b-4ac0-a051-28b6ad859112</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">efd375bf-c20b-4ac0-a051-28b6ad859112</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-73b6cafd08ae4ccd80f24de79585270e" source="id-bb0bf644f25a4264954caffb9d5bb8ea" target="id-48047fd087aa41da96310843c0e04347" xsi:type="Serving">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">2da77d9b-cdc4-40d59-898f-81f90ddffec</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-2da77d9bcdc440d59898f81f90ddffec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-2da77d9bcdc440d59898f81f90ddffec</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-4dd6e452cf0f466bbac59fbb14247e7c" source="id-48ba4ef2d2744388af43598f6bafe860" target="id-54497fc5b6df425599a7d21ab989ac48" xsi:type="Serving">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">8a8dcab8-6651-40829-93bc-be720143c84</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-8a8dcab866514082993bcbe720143c84</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-8a8dcab866514082993bcbe720143c84</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-d806d10c87f741debd492c15ae7a4282" source="id-48ba4ef2d2744388af43598f6bafe860" target="id-bb96aa24e04d4c7fb95439ef83eba6d7" xsi:type="Serving">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">493a8adf-ec59-45eeb-ebf9-42f59cda334</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-493a8adfec5945eebebf942f59cda334</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-493a8adfec5945eebebf942f59cda334</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-4abb9fb3fd46408ebd65b9a31191adc3" source="id-52381cf6bc3c4780a6b4a8858f0a4c2c" target="id-3815c329c05f4f50b6c3bcf3f68ec820" xsi:type="Serving">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">3a738e2a-ebe5-455c8-d4de-7a1b5ce72c0</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-3a738e2aebe5455c8d4de7a1b5ce72c0</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-3a738e2aebe5455c8d4de7a1b5ce72c0</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-f74c240a6a604f5fbeb0f97377411234" source="id-a294473766fd46b194dea9c02712897f" target="id-9a8196096db54ea9b87fb8d27f82c8c5" xsi:type="Triggering">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">49bef90c-f09c-4822-893d-a152ba7cb6a3</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-49bef90c-f09c-4822-893d-a152ba7cb6a3</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-49bef90c-f09c-4822-893d-a152ba7cb6a3</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-54911f916b0a4dd49565655eec988bd1" source="id-9a8196096db54ea9b87fb8d27f82c8c5" target="id-3815c329c05f4f50b6c3bcf3f68ec820" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">1ba08a8b-dc4f-4645a-641f-991c5a2582c</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-1ba08a8bdc4f4645a641f991c5a2582c</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-1ba08a8bdc4f4645a641f991c5a2582c</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-43f066b2eda545f7ba1556d7d12dd284" source="id-bb96aa24e04d4c7fb95439ef83eba6d7" target="id-3815c329c05f4f50b6c3bcf3f68ec820" xsi:type="Triggering">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">028d8d8e-3d50-4ff9-aeda-994df1dacd13</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-028d8d8e-3d50-4ff9-aeda-994df1dacd13</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-028d8d8e-3d50-4ff9-aeda-994df1dacd13</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-b723a0c417df4320a4fd109a8ef9ace3" source="id-9a8196096db54ea9b87fb8d27f82c8c5" target="id-54497fc5b6df425599a7d21ab989ac48" xsi:type="Aggregation">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">789ed47d-13a2-4f5da-5bad-d828dfbd1a5</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-789ed47d13a24f5da5badd828dfbd1a5</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-789ed47d13a24f5da5badd828dfbd1a5</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-1bb03937d90941828a93fe91b52b81f6" source="id-cde47f9085b74193b2f78a71807ba030" target="id-bb0bf644f25a4264954caffb9d5bb8ea" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">6ab35bec-43a4-48f49-05a6-35a56426683</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-6ab35bec43a448f4905a635a56426683</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-6ab35bec43a448f4905a635a56426683</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-719752a76f9f4166b15408f5e7176a95" source="id-ecf0594121764f629d5d195e04a5fcab" target="id-52381cf6bc3c4780a6b4a8858f0a4c2c" xsi:type="Assignment">
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="en">ed47d12a-8d19-40a48-87e2-883979cad43</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="en">id-ed47d12a8d1940a4887e2883979cad43</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="en">id-ed47d12a8d1940a4887e2883979cad43</value>
+        </property>
+      </properties>
+    </relationship>
+  </relationships>
+  <organizations>
+    <item>
+      <label xml:lang="en">Business</label>
+      <item identifierRef="id-cb711b98e8a1404cb48f6fddcabd14f4" />
+      <item identifierRef="id-e1d79de7ddf2460abbef3ff20b133160" />
+      <item identifierRef="id-d7b915b0957c4a13a2624aeb8c269a75" />
+      <item identifierRef="id-baaf1303a8ac424db12426a903f4e0e5" />
+      <item identifierRef="id-953570c564fa441fae17bb0d6d6b5ed2" />
+      <item identifierRef="id-4a14864b5d394a65af7304a0e8c4cd21" />
+      <item identifierRef="id-d7e8bf6710d648e09e51f2adfc164fc3" />
+      <item identifierRef="id-8af696f4ef174524b776665b078c4c22" />
+      <item identifierRef="id-2f3c45b460374f079b30044ac5ff9fc4" />
+      <item identifierRef="id-a6370fee5c0f41a786e04bfccce2e22e" />
+      <item identifierRef="id-9a8196096db54ea9b87fb8d27f82c8c5" />
+      <item identifierRef="id-3815c329c05f4f50b6c3bcf3f68ec820" />
+      <item identifierRef="id-48047fd087aa41da96310843c0e04347" />
+      <item identifierRef="id-54497fc5b6df425599a7d21ab989ac48" />
+      <item identifierRef="id-bb96aa24e04d4c7fb95439ef83eba6d7" />
+      <item identifierRef="id-4609cc1c64be45ab96dee5ce7d863e94" />
+      <item identifierRef="id-a294473766fd46b194dea9c02712897f" />
+    </item>
+    <item>
+      <label xml:lang="en">Application</label>
+      <item identifierRef="id-b7df108d1dfe4e9e8461ce3bcb59c3b2" />
+      <item identifierRef="id-9848e7a49a8245938b4a46307fa7b67a" />
+      <item identifierRef="id-2df9f8eecce246a9abe37d9ac812b505" />
+      <item identifierRef="id-de5139fa4cbc434fbc2a0e7211954c81" />
+      <item identifierRef="id-cfbee421458c4984b79db84e3c5655df" />
+      <item identifierRef="id-c38ca8009c444cd2bb38b37828a94e9c" />
+      <item identifierRef="id-7d3d3f4472284ee081693b8ac431a424" />
+      <item identifierRef="id-14d62f8dda35432682ae34c06dba9760" />
+      <item identifierRef="id-38aeb27cbbe9470d9a4965a19e5b87c9" />
+      <item identifierRef="id-3223cb307d5840c88d7449d495da575a" />
+      <item identifierRef="id-d65ebeffcbee4293bc22a91cd4eea36a" />
+      <item identifierRef="id-12ee3418280d474aa372695334eac668" />
+      <item identifierRef="id-e473cc2b48cc4aafa5697ad5f3dbe733" />
+      <item identifierRef="id-29e026acd19844f3ae7050a6dfe32e22" />
+      <item identifierRef="id-d10fcb2fda0148eab294e55ec16bc6b8" />
+      <item identifierRef="id-334588d905d149e1811bdea94fd4d78d" />
+      <item identifierRef="id-138118069597463c827d7c9e60eb7a90" />
+      <item identifierRef="id-6969ab4208b148d79bcb7a5f5d3c261f" />
+      <item identifierRef="id-7cf10aab65eb4f4084ad519a76e72a97" />
+      <item identifierRef="id-01e5f7ed33a64ed7aa9098bea6e54dc1" />
+      <item identifierRef="id-a2936b837b4c4326a3acb23cfd8ee66e" />
+      <item identifierRef="id-0509db6b59c8457bbc2fdf3906218668" />
+      <item identifierRef="id-7a1e4e0908e1492297f966a99d9b2043" />
+      <item identifierRef="id-aee42bf85cbf40f39bd124b2ee9aaa0f" />
+      <item identifierRef="id-20a2882878474835b85e613cf2b85db3" />
+      <item identifierRef="id-a3b304486c314004938b77ac7cbfbae2" />
+      <item identifierRef="id-65250524fc7145ab86fc16649f92fcbc" />
+      <item identifierRef="id-720de0362f544c0f875d2878cad6d59c" />
+      <item identifierRef="id-6ab621c66da741dc9f5f50bc9ad173d7" />
+      <item identifierRef="id-f951409cbc694e599a1db3b0cc624ffd" />
+      <item identifierRef="id-3f034961f04a474d8a1c575a206c22bc" />
+      <item identifierRef="id-078f3a527fb34812b9af68c137da1d1f" />
+      <item identifierRef="id-3c055c0f5e8643c2ab161340fac2e1a0" />
+      <item identifierRef="id-48ba4ef2d2744388af43598f6bafe860" />
+      <item identifierRef="id-ecf0594121764f629d5d195e04a5fcab" />
+      <item identifierRef="id-52381cf6bc3c4780a6b4a8858f0a4c2c" />
+      <item identifierRef="id-cde47f9085b74193b2f78a71807ba030" />
+      <item identifierRef="id-bb0bf644f25a4264954caffb9d5bb8ea" />
+    </item>
+    <item>
+      <label xml:lang="en">Other</label>
+      <item identifierRef="id-c4ac1b08956f437ea12867ab522ed994" />
+    </item>
+    <item>
+      <label xml:lang="en">Relations</label>
+      <item identifierRef="id-569be062888d43758938789051e391d5" />
+      <item identifierRef="id-45c46516296048fe9e7538fdd62ebba4" />
+      <item identifierRef="id-57c131ba809b4c8c93214c261a9367c2" />
+      <item identifierRef="id-c26642d82aef4fa486a799a5b855e378" />
+      <item identifierRef="id-d289ee2c75c84e1c877e052cf186d81f" />
+      <item identifierRef="id-d86c9d610ae2429cba90287343c30aca" />
+      <item identifierRef="id-9165eae05d084c57b403dec983725a44" />
+      <item identifierRef="id-ea81143e2deb4e48b691a2e478d6e7a6" />
+      <item identifierRef="id-d2277bf048f346ffa20817ec7ea86213" />
+      <item identifierRef="id-b887443e3db745cf868c7ce6dda180f3" />
+      <item identifierRef="id-f508825141554dc3b90070b4a8841b7a" />
+      <item identifierRef="id-975cb8ccffa84b34bdd25bb698dea86b" />
+      <item identifierRef="id-d049ab34e32a405694cfa2eafa38fef8" />
+      <item identifierRef="id-b8bb46e085a842d3b8aadb290e472274" />
+      <item identifierRef="id-4b419aa8583d417f9118724eea1a0d10" />
+      <item identifierRef="id-14f259c5f7734a9fb4f516d7f9acee9d" />
+      <item identifierRef="id-fb8c9915b69841e28f1dc778842558b6" />
+      <item identifierRef="id-7f07f2149f8e4762a021014a811864cc" />
+      <item identifierRef="id-9282025a832b4f3c99b2882ffdff3649" />
+      <item identifierRef="id-f5129b6a0d654ca7a348e62bf8839ada" />
+      <item identifierRef="id-5f6cf30528a04316a68c8f4ff2aedd99" />
+      <item identifierRef="id-3b0a1e4b705944b0bc617f87c98dd52e" />
+      <item identifierRef="id-2fd71aef61f94cc492e84d4732edfdd0" />
+      <item identifierRef="id-a438b966476a493c976b994a5a0d0e95" />
+      <item identifierRef="id-b3dbbdab2dab4fd39a694b90d856cf95" />
+      <item identifierRef="id-36503fe439ea4628addf478cb4aa63b1" />
+      <item identifierRef="id-b2f72eb4ef8e4474b74ea46a05f46b89" />
+      <item identifierRef="id-c3d0fd64f421446fadfd7f60a4261e42" />
+      <item identifierRef="id-6198beb299674911ad47d20217f80a4f" />
+      <item identifierRef="id-b29e7d83d1a94fe8baadb08cc0415ca8" />
+      <item identifierRef="id-451e92b8aff145d2bd806e5e51f5037e" />
+      <item identifierRef="id-81b26ca8850a49cab594ba4ad5352164" />
+      <item identifierRef="id-b85633be532d49e4b862845acb1a52d8" />
+      <item identifierRef="id-03499fbc452247aeb7c4bfa06540cf8e" />
+      <item identifierRef="id-f9b092cb2ad545b18c75e3fecfff3b22" />
+      <item identifierRef="id-212ea137ee304f209047913c8dd36fad" />
+      <item identifierRef="id-fdbb330ebd564bcaaf055e2e2fa8e046" />
+      <item identifierRef="id-6a7db2cd5b6d4d4c8abdb2caadd55836" />
+      <item identifierRef="id-0b041775b334410dafe2509a3e0a593a" />
+      <item identifierRef="id-564a094a8fed4c4eb5d3dc2b50d01435" />
+      <item identifierRef="id-06dcd3b3aba045cc8a8ecbdd1fec952d" />
+      <item identifierRef="id-c04eacc486554b078104a792120009a7" />
+      <item identifierRef="id-1691c313f4014cb9ba185b31945fa960" />
+      <item identifierRef="id-d2e7cc7b3c064f29adb92199524d6d78" />
+      <item identifierRef="id-d5b2d782ea8a4478a8f9585cdfb483e6" />
+      <item identifierRef="id-568165b5fac14bb28356b6dd7a10c785" />
+      <item identifierRef="id-c095d77343394a8bbad00bff2472315d" />
+      <item identifierRef="id-4358c181408349a68bf2363017fc29d1" />
+      <item identifierRef="id-69503a47bec04fafbd0b7aedc9e2e2f5" />
+      <item identifierRef="id-5d9fd145e94e4cf08ff6b39910670f5f" />
+      <item identifierRef="id-16463a650e3e4ce3bf489e268fdb9e85" />
+      <item identifierRef="id-c30698a68e1746b7b084d26becc9e41f" />
+      <item identifierRef="id-116a4642691c482cb84d81bedd63d084" />
+      <item identifierRef="id-b95c2a221a5f49a28cb9453e69fd1a0e" />
+      <item identifierRef="id-772a6b337a034a748dbf48b2ef1800eb" />
+      <item identifierRef="id-84fbe366098c4c59847c72911f5d0cbf" />
+      <item identifierRef="id-725f1081f2be46048209c9fea099a2ba" />
+      <item identifierRef="id-7d96f5e0ed1349e2845db35e65f6d266" />
+      <item identifierRef="id-a609637f52d84b85be399e635a2e7fb2" />
+      <item identifierRef="id-b29221bc8e994f12a7cc97f1ffdfa7d5" />
+      <item identifierRef="id-58f8590fa3834dd7b318eec3d980e25c" />
+      <item identifierRef="id-abf1b839c99f447ba6ce0cf6d688bacc" />
+      <item identifierRef="id-96146e75b703437893f882e0b9e1b8d6" />
+      <item identifierRef="id-7015fdf3da1c4b7db9d2d537c5de68ea" />
+      <item identifierRef="id-0d03c551f13b4e16a029f0e4599ddcd0" />
+      <item identifierRef="id-48bbde582eba45babe6083cb7246c622" />
+      <item identifierRef="id-00f0be73b85d44cab7e4b138afbf0c46" />
+      <item identifierRef="id-39f210d55bec43d3a4ffb836407993bf" />
+      <item identifierRef="id-c9253bdf40f24587acec0b989c43bd63" />
+      <item identifierRef="id-67421b26821245e8b0e751748102c919" />
+      <item identifierRef="id-2f7de735cdb444458a0b235545bccaf7" />
+      <item identifierRef="id-766e89befe174dc0bd9542cb68b0c6b1" />
+      <item identifierRef="id-5fb6e3c09d214181b90be6e25953178d" />
+      <item identifierRef="id-0aa667c0782f487cb077a65483bdf683" />
+      <item identifierRef="id-5d7be9eef04545b59a1fb7f56b3c1d29" />
+      <item identifierRef="id-663e8f305548467ea51a82ad44b57586" />
+      <item identifierRef="id-f085de4c30ac43739ef1173794d28490" />
+      <item identifierRef="id-354821e4717045f19e7fd6291af49856" />
+      <item identifierRef="id-73b6cafd08ae4ccd80f24de79585270e" />
+      <item identifierRef="id-4dd6e452cf0f466bbac59fbb14247e7c" />
+      <item identifierRef="id-d806d10c87f741debd492c15ae7a4282" />
+      <item identifierRef="id-4abb9fb3fd46408ebd65b9a31191adc3" />
+      <item identifierRef="id-f74c240a6a604f5fbeb0f97377411234" />
+      <item identifierRef="id-54911f916b0a4dd49565655eec988bd1" />
+      <item identifierRef="id-43f066b2eda545f7ba1556d7d12dd284" />
+      <item identifierRef="id-b723a0c417df4320a4fd109a8ef9ace3" />
+      <item identifierRef="id-1bb03937d90941828a93fe91b52b81f6" />
+      <item identifierRef="id-719752a76f9f4166b15408f5e7176a95" />
+    </item>
+    <item>
+      <label xml:lang="en">Views</label>
+      <item identifierRef="id-87c280e0eded4e1189415747708b6651" />
+      <item identifierRef="id-4c102e0dcb254feb9a2103c23d564e96" />
+      <item identifierRef="id-06576315c91f46f5be0899728ff817e8" />
+    </item>
+  </organizations>
+  <propertyDefinitions>
+    <propertyDefinition identifier="propid-4" type="string">
+      <name>Bron</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-1" type="string">
+      <name>Object ID</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-2" type="string">
+      <name>Original ID</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-3" type="string">
+      <name>Semanticsearch</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-5" type="string">
+      <name>Toelichting</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="id-87c280e0eded4e1189415747708b6651" xsi:type="Diagram">
+        <name xml:lang="en">Applicatieondersteuning: Opstellen specifieke SDG teksten (eigen CMS)</name>
+        <node identifier="id-f9f931ca254e4ea58d7afd353879d436" x="864" y="355" w="913" h="420" xsi:type="Container">
+          <label xml:lang="en">SimGroep</label>
+          <style>
+            <fillColor r="128" g="128" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="255" g="255" b="255" />
+            </font>
+          </style>
+          <node identifier="id-4a86b44442f8467f84fa73ac29b51c74" elementRef="id-b7df108d1dfe4e9e8461ce3bcb59c3b2" xsi:type="Element" x="1536" y="391" w="193" h="79">
+            <style>
+              <fillColor r="13" g="158" b="174" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="255" g="255" b="255" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-5031cef9b1d144a08150a6dd3ac43edb" x="1848" y="355" w="564" h="312" xsi:type="Container">
+          <label xml:lang="en">Maykin</label>
+          <style>
+            <fillColor r="255" g="128" b="128" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="255" g="255" b="255" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-6f3f4148b39e4766b05bee561effdeca" x="252" y="355" w="564" h="312" xsi:type="Container">
+          <label xml:lang="en">Maykin</label>
+          <style>
+            <fillColor r="255" g="128" b="128" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="255" g="255" b="255" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-dcb0eac5735b496db06f64a9b40c7f67" elementRef="id-cb711b98e8a1404cb48f6fddcabd14f4" xsi:type="Element" x="876" y="43" w="877" h="253">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-0018e9eaa1c44df8a4afb981059a20a6" elementRef="id-e1d79de7ddf2460abbef3ff20b133160" xsi:type="Element" x="1128" y="79" w="193" h="79">
+            <style>
+              <fillColor r="240" g="230" b="140" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-fa098f1a741c4951b8ae6211385c1164" elementRef="id-d7b915b0957c4a13a2624aeb8c269a75" xsi:type="Element" x="1536" y="139" w="193" h="79">
+            <style>
+              <fillColor r="240" g="230" b="140" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-e31a463767ae49399f42ddf5b89805d3" elementRef="id-baaf1303a8ac424db12426a903f4e0e5" xsi:type="Element" x="900" y="139" w="193" h="79">
+            <style>
+              <fillColor r="240" g="230" b="140" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-3c475814df66413caf96d76886405e5f" elementRef="id-953570c564fa441fae17bb0d6d6b5ed2" xsi:type="Element" x="1284" y="199" w="193" h="79">
+            <style>
+              <fillColor r="240" g="230" b="140" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-bc7378530db448eab697b88522fca252" elementRef="id-4a14864b5d394a65af7304a0e8c4cd21" xsi:type="Element" x="2196" y="144" w="193" h="79">
+          <style>
+            <fillColor r="221" g="221" b="0" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-f904e753060341c9bcfba1f7a0aebef3" elementRef="id-d7e8bf6710d648e09e51f2adfc164fc3" xsi:type="Element" x="276" y="144" w="193" h="79">
+          <style>
+            <fillColor r="221" g="221" b="0" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-4406a316805449b4b7c253bdf804a02d" elementRef="id-9848e7a49a8245938b4a46307fa7b67a" xsi:type="Element" x="888" y="523" w="877" h="128">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-53c49526727b4d49b36cb9cb0e4cc240" elementRef="id-2df9f8eecce246a9abe37d9ac812b505" xsi:type="Element" x="900" y="559" w="853" h="79">
+            <style>
+              <fillColor r="13" g="158" b="174" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="255" g="255" b="255" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-5ed76fe25fd14c5ba32c6e393058919a" elementRef="id-de5139fa4cbc434fbc2a0e7211954c81" xsi:type="Element" x="1128" y="391" w="349" h="79">
+          <style>
+            <fillColor r="13" g="158" b="174" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="255" g="255" b="255" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-72b6d47e09bc41c197c9e3e59928e091" elementRef="id-cfbee421458c4984b79db84e3c5655df" xsi:type="Element" x="1200" y="679" w="193" h="79">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-776e37c8f72946d081c8fa6ade62407a" elementRef="id-c38ca8009c444cd2bb38b37828a94e9c" xsi:type="Element" x="1896" y="391" w="193" h="79">
+          <style>
+            <fillColor r="13" g="158" b="174" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="255" g="255" b="255" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-403bab339e6a4dc484c3db9a3123dd4f" elementRef="id-7d3d3f4472284ee081693b8ac431a424" xsi:type="Element" x="1872" y="523" w="229" h="128">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-18625b666b03447f96f2189693922e21" elementRef="id-14d62f8dda35432682ae34c06dba9760" xsi:type="Element" x="1896" y="559" w="193" h="79">
+            <style>
+              <fillColor r="13" g="158" b="174" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="255" g="255" b="255" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-f6f2b857bd4f4d118ec29182b0293cf2" elementRef="id-38aeb27cbbe9470d9a4965a19e5b87c9" xsi:type="Element" x="900" y="391" w="193" h="79">
+          <style>
+            <fillColor r="13" g="158" b="174" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="255" g="255" b="255" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-1f35a0ac8b064140bea5569e9db5be2f" elementRef="id-3223cb307d5840c88d7449d495da575a" xsi:type="Element" x="276" y="559" w="193" h="79">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-02fdff49626a490e94745262fd8f6baa" elementRef="id-d65ebeffcbee4293bc22a91cd4eea36a" xsi:type="Element" x="564" y="523" w="229" h="128">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-6477974297c9430a8157c01d9a2e0d48" elementRef="id-12ee3418280d474aa372695334eac668" xsi:type="Element" x="588" y="559" w="193" h="79">
+            <style>
+              <fillColor r="13" g="158" b="174" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="255" g="255" b="255" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-d9a929accd7341bc8cbbdcd96473ae6e" elementRef="id-e473cc2b48cc4aafa5697ad5f3dbe733" xsi:type="Element" x="588" y="391" w="193" h="79">
+          <style>
+            <fillColor r="13" g="158" b="174" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="255" g="255" b="255" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-4c9b726e2956401296b4c3ff8ab51b6d" elementRef="id-29e026acd19844f3ae7050a6dfe32e22" xsi:type="Element" x="2196" y="547" w="193" h="79">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <connection identifier="id-02d520d631f749f896242a5f81e2d2f8" relationshipRef="id-d86c9d610ae2429cba90287343c30aca" xsi:type="Relationship" source="id-4a86b44442f8467f84fa73ac29b51c74" target="id-fa098f1a741c4951b8ae6211385c1164">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-7d3f83dbf7eb4f179db16c16ab3d0c46" relationshipRef="id-57c131ba809b4c8c93214c261a9367c2" xsi:type="Relationship" source="id-4a86b44442f8467f84fa73ac29b51c74" target="id-776e37c8f72946d081c8fa6ade62407a">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-b75c3bb657994bdebb3742672b39869d" relationshipRef="id-3b0a1e4b705944b0bc617f87c98dd52e" xsi:type="Relationship" source="id-0018e9eaa1c44df8a4afb981059a20a6" target="id-fa098f1a741c4951b8ae6211385c1164">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="1608" y="103" />
+        </connection>
+        <connection identifier="id-a8ba7633884a457d8af10f91f76f1899" relationshipRef="id-d289ee2c75c84e1c877e052cf186d81f" xsi:type="Relationship" source="id-fa098f1a741c4951b8ae6211385c1164" target="id-bc7378530db448eab697b88522fca252">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-c10edbc5375546efba26d19fddc7ee41" relationshipRef="id-975cb8ccffa84b34bdd25bb698dea86b" xsi:type="Relationship" source="id-e31a463767ae49399f42ddf5b89805d3" target="id-0018e9eaa1c44df8a4afb981059a20a6">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="996" y="103" />
+        </connection>
+        <connection identifier="id-042fed1395c3409ba56efde588185de1" relationshipRef="id-d049ab34e32a405694cfa2eafa38fef8" xsi:type="Relationship" source="id-e31a463767ae49399f42ddf5b89805d3" target="id-3c475814df66413caf96d76886405e5f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="1074" y="247" />
+        </connection>
+        <connection identifier="id-432ea49bc46e43548bcbb593b633acc2" relationshipRef="id-14f259c5f7734a9fb4f516d7f9acee9d" xsi:type="Relationship" source="id-e31a463767ae49399f42ddf5b89805d3" target="id-f904e753060341c9bcfba1f7a0aebef3">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-ee54d6dfd0ce4ce2bb8c37ab8abbd2f0" relationshipRef="id-c26642d82aef4fa486a799a5b855e378" xsi:type="Relationship" source="id-3c475814df66413caf96d76886405e5f" target="id-fa098f1a741c4951b8ae6211385c1164">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="1608" y="247" />
+        </connection>
+        <connection identifier="id-95dbc05f6a7143feb4ad2cad4b16d0b9" relationshipRef="id-2fd71aef61f94cc492e84d4732edfdd0" xsi:type="Relationship" source="id-53c49526727b4d49b36cb9cb0e4cc240" target="id-4a86b44442f8467f84fa73ac29b51c74">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-3a9d7a4e021449b0acdb0b7710ba67bd" relationshipRef="id-6198beb299674911ad47d20217f80a4f" xsi:type="Relationship" source="id-53c49526727b4d49b36cb9cb0e4cc240" target="id-72b6d47e09bc41c197c9e3e59928e091">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-d6ab979857eb43658508b2613a10c478" relationshipRef="id-36503fe439ea4628addf478cb4aa63b1" xsi:type="Relationship" source="id-53c49526727b4d49b36cb9cb0e4cc240" target="id-5ed76fe25fd14c5ba32c6e393058919a">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-bc76068ebdcf4f6297f613fcd1a58e38" relationshipRef="id-7f07f2149f8e4762a021014a811864cc" xsi:type="Relationship" source="id-53c49526727b4d49b36cb9cb0e4cc240" target="id-f6f2b857bd4f4d118ec29182b0293cf2">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-01880fdd68b34f5b9d6461563091c58f" relationshipRef="id-a438b966476a493c976b994a5a0d0e95" xsi:type="Relationship" source="id-5ed76fe25fd14c5ba32c6e393058919a" target="id-3c475814df66413caf96d76886405e5f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-8f854f21f2c94f14acc3e45d487f18dc" relationshipRef="id-b8bb46e085a842d3b8aadb290e472274" xsi:type="Relationship" source="id-5ed76fe25fd14c5ba32c6e393058919a" target="id-0018e9eaa1c44df8a4afb981059a20a6">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-b133dcdbe4994403b56bf9101ea5bcf1" relationshipRef="id-b3dbbdab2dab4fd39a694b90d856cf95" xsi:type="Relationship" source="id-18625b666b03447f96f2189693922e21" target="id-4c9b726e2956401296b4c3ff8ab51b6d">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-88854ff7c7b641d2908e551d5b30e0e6" relationshipRef="id-c3d0fd64f421446fadfd7f60a4261e42" xsi:type="Relationship" source="id-18625b666b03447f96f2189693922e21" target="id-776e37c8f72946d081c8fa6ade62407a">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-7afed3018cae492199c34f93cfebc51a" relationshipRef="id-9165eae05d084c57b403dec983725a44" xsi:type="Relationship" source="id-f6f2b857bd4f4d118ec29182b0293cf2" target="id-e31a463767ae49399f42ddf5b89805d3">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-e44d2f5bceeb4e0f9d34a55e1e49d82b" relationshipRef="id-9282025a832b4f3c99b2882ffdff3649" xsi:type="Relationship" source="id-1f35a0ac8b064140bea5569e9db5be2f" target="id-f904e753060341c9bcfba1f7a0aebef3">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-106a848bbe394dc191c3b8650b9eb1a4" relationshipRef="id-ea81143e2deb4e48b691a2e478d6e7a6" xsi:type="Relationship" source="id-6477974297c9430a8157c01d9a2e0d48" target="id-d9a929accd7341bc8cbbdcd96473ae6e">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-6213ff5f7610476dbddbeb9f1cd55946" relationshipRef="id-5f6cf30528a04316a68c8f4ff2aedd99" xsi:type="Relationship" source="id-6477974297c9430a8157c01d9a2e0d48" target="id-1f35a0ac8b064140bea5569e9db5be2f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-d6965dfc859a47a1b61bb07ed8fe28e5" relationshipRef="id-f5129b6a0d654ca7a348e62bf8839ada" xsi:type="Relationship" source="id-d9a929accd7341bc8cbbdcd96473ae6e" target="id-f6f2b857bd4f4d118ec29182b0293cf2">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-d30672d587324860b065241de2f34b1b" relationshipRef="id-b2f72eb4ef8e4474b74ea46a05f46b89" xsi:type="Relationship" source="id-4c9b726e2956401296b4c3ff8ab51b6d" target="id-bc7378530db448eab697b88522fca252">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+      </view>
+      <view identifier="id-4c102e0dcb254feb9a2103c23d564e96" xsi:type="Diagram">
+        <name xml:lang="en">002 - PLOOI (WOO-index met zoekfunctie) en elementen te realiseren bij bestuursorganen</name>
+        <node identifier="id-3235b4436f5f4d149b9b1dc3c048e0bb" elementRef="id-8af696f4ef174524b776665b078c4c22" xsi:type="Element" x="304" y="492" w="1077" h="345">
+          <style>
+            <fillColor r="255" g="255" b="233" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-834382ed494d42c99a4c68530f1243dd" elementRef="id-d10fcb2fda0148eab294e55ec16bc6b8" xsi:type="Element" x="340" y="540" w="1012" h="272">
+            <style>
+              <fillColor r="204" g="228" b="253" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+            <node identifier="id-189c573b424f4bbc942d7549b0b0314d" elementRef="id-334588d905d149e1811bdea94fd4d78d" xsi:type="Element" x="376" y="588" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-bdb325b7c8cb4fdd95a7124755c0a3a0" elementRef="id-138118069597463c827d7c9e60eb7a90" xsi:type="Element" x="536" y="588" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-e2eb53a5d0b74358b562b965094d0699" elementRef="id-6969ab4208b148d79bcb7a5f5d3c261f" xsi:type="Element" x="864" y="588" w="289" h="81">
+              <style>
+                <fillColor r="122" g="175" b="218" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-37e8a545b6d2438c8e59ba2b4d18562a" elementRef="id-7cf10aab65eb4f4084ad519a76e72a97" xsi:type="Element" x="864" y="700" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-aa36c5f370c24ed3a656c34fa44f1092" elementRef="id-01e5f7ed33a64ed7aa9098bea6e54dc1" xsi:type="Element" x="1016" y="700" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-ecdf109f41d84e13a604c92e5e2be21f" elementRef="id-a2936b837b4c4326a3acb23cfd8ee66e" xsi:type="Element" x="704" y="588" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-48dc21ced79d4973ba76acf5ee0521b1" elementRef="id-0509db6b59c8457bbc2fdf3906218668" xsi:type="Element" x="536" y="700" w="297" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-ea1aad2949f34719b6290d44b19f5df6" elementRef="id-7a1e4e0908e1492297f966a99d9b2043" xsi:type="Element" x="376" y="700" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+          </node>
+        </node>
+        <node identifier="id-54fab20e134e4003b5f2750eb008aa5b" elementRef="id-2f3c45b460374f079b30044ac5ff9fc4" xsi:type="Element" x="144" y="12" w="129" h="825">
+          <style>
+            <fillColor r="255" g="255" b="233" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-7d04266375b24d5bb1efa1916af88a64" elementRef="id-a6370fee5c0f41a786e04bfccce2e22e" xsi:type="Element" x="304" y="12" w="1077" h="449">
+          <style>
+            <fillColor r="255" g="255" b="233" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-65b476afd5c84bb5b6e9477558af5567" elementRef="id-c4ac1b08956f437ea12867ab522ed994" xsi:type="Element" x="336" y="52" w="1013" h="376">
+            <style>
+              <fillColor r="204" g="228" b="253" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+            <node identifier="id-8e10773bd81a484dbbc582db44f3faa0" elementRef="id-aee42bf85cbf40f39bd124b2ee9aaa0f" xsi:type="Element" x="848" y="204" w="289" h="81">
+              <style>
+                <fillColor r="122" g="175" b="218" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-2def1896e862440d829d18ea39312db9" elementRef="id-20a2882878474835b85e613cf2b85db3" xsi:type="Element" x="528" y="316" w="449" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-abac152b2fad45c99aa9b4345e80c835" elementRef="id-a3b304486c314004938b77ac7cbfbae2" xsi:type="Element" x="688" y="92" w="289" h="81">
+              <style>
+                <fillColor r="122" g="175" b="218" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-e8388987f9c747c5a02ea13de10f8b2c" elementRef="id-65250524fc7145ab86fc16649f92fcbc" xsi:type="Element" x="1008" y="316" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-1cede3101a6d4a4ebf5373c88f7ddb4f" elementRef="id-720de0362f544c0f875d2878cad6d59c" xsi:type="Element" x="368" y="92" w="129" h="193">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-7ee40fa16acb4a45bb6420ce9720c71f" elementRef="id-6ab621c66da741dc9f5f50bc9ad173d7" xsi:type="Element" x="528" y="92" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-90577ea5f6ae4f88936c67d562e4bb2b" elementRef="id-f951409cbc694e599a1db3b0cc624ffd" xsi:type="Element" x="528" y="204" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-49bbcb38b63747248c2ae49603f1bd4d" elementRef="id-3f034961f04a474d8a1c575a206c22bc" xsi:type="Element" x="1008" y="92" w="129" h="81">
+              <style>
+                <fillColor r="181" g="255" b="255" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+            <node identifier="id-0b720bf2d82b4028b3d85a6e8ef17403" elementRef="id-078f3a527fb34812b9af68c137da1d1f" xsi:type="Element" x="1200" y="92" w="129" h="81">
+              <style>
+                <fillColor r="204" g="228" b="253" a="100" />
+                <lineColor r="92" g="92" b="92" a="100" />
+                <font name="Segoe UI" size="9">
+                  <color r="0" g="0" b="0" />
+                </font>
+              </style>
+            </node>
+          </node>
+        </node>
+        <connection identifier="id-9932f8022ba6465a9257bbca2f700b7a" relationshipRef="id-0d03c551f13b4e16a029f0e4599ddcd0" xsi:type="Relationship" source="id-834382ed494d42c99a4c68530f1243dd" target="id-e8388987f9c747c5a02ea13de10f8b2c">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-5a6dc8b0e60c43b18aeba6e92682788c" relationshipRef="id-212ea137ee304f209047913c8dd36fad" xsi:type="Relationship" source="id-37e8a545b6d2438c8e59ba2b4d18562a" target="id-e2eb53a5d0b74358b562b965094d0699">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-740d86fb02de4866afbac153a1aca4aa" relationshipRef="id-abf1b839c99f447ba6ce0cf6d688bacc" xsi:type="Relationship" source="id-aa36c5f370c24ed3a656c34fa44f1092" target="id-e2eb53a5d0b74358b562b965094d0699">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-8e8d788b68d5428b8d102f52550029a4" relationshipRef="id-b95c2a221a5f49a28cb9453e69fd1a0e" xsi:type="Relationship" source="id-48dc21ced79d4973ba76acf5ee0521b1" target="id-ecdf109f41d84e13a604c92e5e2be21f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-de2b15ea401045febd7a3860bf4d2ed0" relationshipRef="id-d2e7cc7b3c064f29adb92199524d6d78" xsi:type="Relationship" source="id-48dc21ced79d4973ba76acf5ee0521b1" target="id-bdb325b7c8cb4fdd95a7124755c0a3a0">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-1171836736ed443eb4532a802ff3deca" relationshipRef="id-7015fdf3da1c4b7db9d2d537c5de68ea" xsi:type="Relationship" source="id-ea1aad2949f34719b6290d44b19f5df6" target="id-54fab20e134e4003b5f2750eb008aa5b">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-af7e9e03bc0947d499f5eb8cb3082b00" relationshipRef="id-c9253bdf40f24587acec0b989c43bd63" xsi:type="Relationship" source="id-8e10773bd81a484dbbc582db44f3faa0" target="id-e2eb53a5d0b74358b562b965094d0699">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="1186" y="246" />
+          <bendpoint x="1189" y="625" />
+        </connection>
+        <connection identifier="id-204a94e3aa5a498b863c15887f5e9995" relationshipRef="id-4358c181408349a68bf2363017fc29d1" xsi:type="Relationship" source="id-8e10773bd81a484dbbc582db44f3faa0" target="id-abac152b2fad45c99aa9b4345e80c835">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-ba233bed762649c0860af2d2c852e546" relationshipRef="id-00f0be73b85d44cab7e4b138afbf0c46" xsi:type="Relationship" source="id-2def1896e862440d829d18ea39312db9" target="id-bdb325b7c8cb4fdd95a7124755c0a3a0">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-0bc518f3decd46ed9448d52be008fd17" relationshipRef="id-58f8590fa3834dd7b318eec3d980e25c" xsi:type="Relationship" source="id-2def1896e862440d829d18ea39312db9" target="id-abac152b2fad45c99aa9b4345e80c835">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="764" y="244" />
+        </connection>
+        <connection identifier="id-6fcb86fb667b470a80a1e59e765f04ca" relationshipRef="id-a609637f52d84b85be399e635a2e7fb2" xsi:type="Relationship" source="id-2def1896e862440d829d18ea39312db9" target="id-8e10773bd81a484dbbc582db44f3faa0">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-6a3887fa20ce4ea0a9875a7ac740835e" relationshipRef="id-f9b092cb2ad545b18c75e3fecfff3b22" xsi:type="Relationship" source="id-2def1896e862440d829d18ea39312db9" target="id-ecdf109f41d84e13a604c92e5e2be21f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-ac1cacbe47c84e37a70d3de11e8afab5" relationshipRef="id-b29e7d83d1a94fe8baadb08cc0415ca8" xsi:type="Relationship" source="id-2def1896e862440d829d18ea39312db9" target="id-e8388987f9c747c5a02ea13de10f8b2c">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-4d093381d426444f85cf90aac7516eec" relationshipRef="id-1691c313f4014cb9ba185b31945fa960" xsi:type="Relationship" source="id-abac152b2fad45c99aa9b4345e80c835" target="id-ea1aad2949f34719b6290d44b19f5df6">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="829" y="1" />
+          <bendpoint x="1419" y="3" />
+          <bendpoint x="1420" y="856" />
+          <bendpoint x="422" y="858" />
+        </connection>
+        <connection identifier="id-e922fea4f99f445b81cc08c1baed542f" relationshipRef="id-69503a47bec04fafbd0b7aedc9e2e2f5" xsi:type="Relationship" source="id-e8388987f9c747c5a02ea13de10f8b2c" target="id-8e10773bd81a484dbbc582db44f3faa0">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-45b749dea2094c4cbc897cb0601bc85e" relationshipRef="id-39f210d55bec43d3a4ffb836407993bf" xsi:type="Relationship" source="id-e8388987f9c747c5a02ea13de10f8b2c" target="id-e2eb53a5d0b74358b562b965094d0699">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-ec508860d07f4b6e9a851c6f1ba5f369" relationshipRef="id-772a6b337a034a748dbf48b2ef1800eb" xsi:type="Relationship" source="id-1cede3101a6d4a4ebf5373c88f7ddb4f" target="id-90577ea5f6ae4f88936c67d562e4bb2b">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-580dd34bb9f143c29313c681565903c5" relationshipRef="id-03499fbc452247aeb7c4bfa06540cf8e" xsi:type="Relationship" source="id-1cede3101a6d4a4ebf5373c88f7ddb4f" target="id-7ee40fa16acb4a45bb6420ce9720c71f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-69d6647a924a41678eccac5ac1ced94e" relationshipRef="id-568165b5fac14bb28356b6dd7a10c785" xsi:type="Relationship" source="id-1cede3101a6d4a4ebf5373c88f7ddb4f" target="id-54fab20e134e4003b5f2750eb008aa5b">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-f92096d60dcb4ce1bfb09ce1d1aac7e4" relationshipRef="id-564a094a8fed4c4eb5d3dc2b50d01435" xsi:type="Relationship" source="id-7ee40fa16acb4a45bb6420ce9720c71f" target="id-abac152b2fad45c99aa9b4345e80c835">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-e6b1aacd913e4e01ac32c538893f1f50" relationshipRef="id-c04eacc486554b078104a792120009a7" xsi:type="Relationship" source="id-90577ea5f6ae4f88936c67d562e4bb2b" target="id-8e10773bd81a484dbbc582db44f3faa0">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="9" style="italic">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-c9baac452bb146fd9b685a292ccc4e0c" relationshipRef="id-16463a650e3e4ce3bf489e268fdb9e85" xsi:type="Relationship" source="id-49bbcb38b63747248c2ae49603f1bd4d" target="id-abac152b2fad45c99aa9b4345e80c835">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+      </view>
+      <view identifier="id-06576315c91f46f5be0899728ff817e8" xsi:type="Diagram">
+        <name xml:lang="en">215 Behandelen vergunningaanvraag</name>
+        <node identifier="id-1d6b1a4d1c7a485c99e98b5df47227bc" elementRef="id-9a8196096db54ea9b87fb8d27f82c8c5" xsi:type="Element" x="252" y="69" w="865" h="97">
+          <style>
+            <fillColor r="240" g="230" b="140" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-13e1b64485954f8985fdb29d2b22e739" elementRef="id-3815c329c05f4f50b6c3bcf3f68ec820" xsi:type="Element" x="720" y="93" w="157" h="55">
+            <style>
+              <fillColor r="240" g="230" b="140" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-010dbcc9ccde475481f0f08eca79669f" elementRef="id-48047fd087aa41da96310843c0e04347" xsi:type="Element" x="936" y="93" w="157" h="55">
+            <style>
+              <fillColor r="240" g="230" b="140" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-80fceb3d65684329a82949f893281459" elementRef="id-54497fc5b6df425599a7d21ab989ac48" xsi:type="Element" x="264" y="93" w="157" h="55">
+            <style>
+              <fillColor r="240" g="230" b="140" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-f36b1efbad3b4e4d95c9663fd1753f80" elementRef="id-bb96aa24e04d4c7fb95439ef83eba6d7" xsi:type="Element" x="492" y="93" w="157" h="55">
+            <style>
+              <fillColor r="240" g="230" b="140" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-28f59dcca94c448fa6abd176d4e81191" elementRef="id-4609cc1c64be45ab96dee5ce7d863e94" xsi:type="Element" x="1176" y="96" w="157" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-760f82e8ffa34860b5564e532131977b" elementRef="id-a294473766fd46b194dea9c02712897f" xsi:type="Element" x="48" y="96" w="156" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-73adfa322ef84ab1ba0f6aabe1ad0bf2" elementRef="id-3c055c0f5e8643c2ab161340fac2e1a0" xsi:type="Element" x="336" y="285" w="241" h="109">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-221ddb958dae4ac8b94ebc0d5ec21a88" elementRef="id-48ba4ef2d2744388af43598f6bafe860" xsi:type="Element" x="360" y="333" w="193" h="55">
+            <style>
+              <fillColor r="13" g="158" b="174" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-0c56af597e414a269377b0c85ffc9342" elementRef="id-ecf0594121764f629d5d195e04a5fcab" xsi:type="Element" x="660" y="285" w="241" h="109">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-1782894fbc9649a5b44b9cdd99ed3a4a" elementRef="id-52381cf6bc3c4780a6b4a8858f0a4c2c" xsi:type="Element" x="696" y="333" w="169" h="55">
+            <style>
+              <fillColor r="13" g="158" b="174" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-3f348d7c001b4902b21ee08bb2417664" elementRef="id-cde47f9085b74193b2f78a71807ba030" xsi:type="Element" x="912" y="285" w="241" h="109">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-bb90238ef1f946449a5010918d396cee" elementRef="id-bb0bf644f25a4264954caffb9d5bb8ea" xsi:type="Element" x="948" y="333" w="169" h="55">
+            <style>
+              <fillColor r="13" g="158" b="174" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <connection identifier="id-16d3f2f4b90e455ea8919ee68d3b2bbb" relationshipRef="id-0aa667c0782f487cb077a65483bdf683" xsi:type="Relationship" source="id-1d6b1a4d1c7a485c99e98b5df47227bc" target="id-28f59dcca94c448fa6abd176d4e81191">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-2168770827e5429a97802d894c88f94b" relationshipRef="id-5fb6e3c09d214181b90be6e25953178d" xsi:type="Relationship" source="id-13e1b64485954f8985fdb29d2b22e739" target="id-010dbcc9ccde475481f0f08eca79669f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-0e41fcb6b0c241c1b413664259537218" relationshipRef="id-354821e4717045f19e7fd6291af49856" xsi:type="Relationship" source="id-80fceb3d65684329a82949f893281459" target="id-f36b1efbad3b4e4d95c9663fd1753f80">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-0a3196580424409b8fd4b44fe339442b" relationshipRef="id-43f066b2eda545f7ba1556d7d12dd284" xsi:type="Relationship" source="id-f36b1efbad3b4e4d95c9663fd1753f80" target="id-13e1b64485954f8985fdb29d2b22e739">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-28d887bf2cb9448da0b77c31c5784402" relationshipRef="id-f74c240a6a604f5fbeb0f97377411234" xsi:type="Relationship" source="id-760f82e8ffa34860b5564e532131977b" target="id-1d6b1a4d1c7a485c99e98b5df47227bc">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-1a794c244b9247c6be29fadc17734b03" relationshipRef="id-d806d10c87f741debd492c15ae7a4282" xsi:type="Relationship" source="id-221ddb958dae4ac8b94ebc0d5ec21a88" target="id-f36b1efbad3b4e4d95c9663fd1753f80">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="588" y="357" />
+        </connection>
+        <connection identifier="id-66cad00b037644e78423b07680ce6da2" relationshipRef="id-4dd6e452cf0f466bbac59fbb14247e7c" xsi:type="Relationship" source="id-221ddb958dae4ac8b94ebc0d5ec21a88" target="id-80fceb3d65684329a82949f893281459">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="324" y="357" />
+        </connection>
+        <connection identifier="id-374f472d917342e2a4e68402ed5b2dac" relationshipRef="id-4abb9fb3fd46408ebd65b9a31191adc3" xsi:type="Relationship" source="id-1782894fbc9649a5b44b9cdd99ed3a4a" target="id-13e1b64485954f8985fdb29d2b22e739">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-acd8f8a361df4ade8814ca344453ce14" relationshipRef="id-73b6cafd08ae4ccd80f24de79585270e" xsi:type="Relationship" source="id-bb90238ef1f946449a5010918d396cee" target="id-010dbcc9ccde475481f0f08eca79669f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+      </view>
+    </diagrams>
+  </views>
+</model>
