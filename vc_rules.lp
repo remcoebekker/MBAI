@@ -34,7 +34,7 @@ evidence(pr_1_id, pr_1_impl_2_id, relationship(RELID)) :-
 	element(BFID2, "BusinessFunction"),
 	relationship(RELID, BFID1, BFID2, _).
 
-violation_report_relation(pr_1_id, pr_1_impl_2_id, RELID, NAME1, NAME2, TYPE) :-
+violation_report_relationship(pr_1_id, pr_1_impl_2_id, RELID, NAME1, NAME2, TYPE) :-
 	evidence(pr_1_id, pr_1_impl_2_id,	
 	relationship(RELID)),
 	relationship(RELID, SOURCEID, TARGETID, TYPE),
@@ -81,7 +81,7 @@ evidence(pr_2_id, pr_2_impl_2_id, data_access(DOBJID, SOURCEID1, SOURCEID2)) :-
 	relationshipAttribute(RELID1, "accessType", ("ReadWrite";"Write")),
 	SOURCEID1 != SOURCEID2.
 
-violation_report_relation(pr_2_id, pr_2_impl_2_id, NAME1, NAME2, NAME3) :-
+violation_report_relationship(pr_2_id, pr_2_impl_2_id, NAME1, NAME2, NAME3) :-
 	evidence(pr_2_id, pr_2_impl_2_id, data_access(DOBJID, SOURCEID1, SOURCEID2)),
 	name(SOURCEID1, NAME1),
 	name(DOBJID, NAME2),
